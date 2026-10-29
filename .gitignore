@@ -1,0 +1,44 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# testing
+coverage/
+
+# next.js build output
+.next/
+out/
+build/
+dist/
+
+# misc
+.DS_Store
+*.pem
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# scratch directory
+scratch/
+
+# large unzipped shapefiles and raw caches (auto-extracted from raw .zip archives)
+data/raw/populated_places/
+data/raw/education_facilities/
+data/raw/health_facilities/
+data/raw/adm1/
+data/raw/adm2/
+data/raw/adm3/

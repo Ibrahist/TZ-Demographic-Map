@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import dynamic from 'next/dynamic';
 import { 
   AdminLevel, 
   IndicatorMeta, 
@@ -11,7 +12,6 @@ import {
   FeatureProperties 
 } from '@/types';
 import { computeColorScale } from '@/utils/colorScales';
-import { ChoroplethMap } from '@/components/ChoroplethMap';
 import { ControlPanel } from '@/components/ControlPanel';
 import { SearchBar, SearchResultItem } from '@/components/SearchBar';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
@@ -20,6 +20,21 @@ import { Tooltip } from '@/components/Tooltip';
 import { ExportButtons } from '@/components/ExportButtons';
 import { ApiKeyModal } from '@/components/ApiKeyModal';
 import { MapPin, Key, Layers, Globe2 } from 'lucide-react';
+
+const ChoroplethMap = dynamic(
+  () => import('@/components/ChoroplethMap').then((mod) => mod.ChoroplethMap),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="w-full h-full min-h-[500px] flex items-center justify-center bg-slate-950 text-slate-400">
+        <div className="flex items-center space-x-2">
+          <div className="w-5 h-5 border-2 border-emerald-500 border-t-transparent rounded-full animate-spin" />
+          <span className="text-sm font-medium">Loading Map Engine...</span>
+        </div>
+      </div>
+    )
+  }
+);
 
 export default function Home() {
   // Config & State

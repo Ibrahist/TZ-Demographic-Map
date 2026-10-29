@@ -1,7 +1,6 @@
-import html2canvas from 'html2canvas';
-
 export function exportToCSV(data: any[], filename: string) {
   if (!data || data.length === 0) return;
+  if (typeof window === 'undefined') return;
   
   // Extract keys excluding complex geometry
   const keys = Object.keys(data[0]).filter(k => k !== 'geometry');
@@ -32,9 +31,12 @@ export function exportToCSV(data: any[], filename: string) {
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
+  URL.revokeObjectURL(url);
 }
 
 export async function exportMapToPNG(elementId: string, filename: string) {
+  if (typeof window === 'undefined') return;
+  
   const element = document.getElementById(elementId);
   if (!element) {
     console.error(`Element #${elementId} not found for PNG export.`);
@@ -42,6 +44,10 @@ export async function exportMapToPNG(elementId: string, filename: string) {
   }
   
   try {
+    // Dynamic import to avoid SSR and Webpack module initialization errors
+    const html2canvasModule = await import('html2canvas');
+    const html2canvas = html2canvasModule.default || html2canvasModule;
+    
     const canvas = await html2canvas(element, {
       useCORS: true,
       allowTaint: true,
@@ -58,4 +64,3 @@ export async function exportMapToPNG(elementId: string, filename: string) {
     console.error('Failed to export map as PNG:', err);
   }
 }
-

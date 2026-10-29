@@ -1,0 +1,632 @@
+category,indicator,indicator_friendly,type_data,latitude,longitude,region_id,country_id,name,year,value
+#meta+category,#indicator+name,#indicator+description,#indicator+type,#geo+lat,#geo+lon,#region+code,#country+code+v_iso2,#country+name,#date+year,#indicator+value
+Health,children_with_diarrhea_3_shelter_deprivation,Proportion of children with diarrhea in last two weeks – 3 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1992,15.9
+Health,children_with_diarrhea_3_shelter_deprivation,Proportion of children with diarrhea in last two weeks – 3 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,2004,10.6
+Health,children_with_diarrhea_3_shelter_deprivation,Proportion of children with diarrhea in last two weeks – 3 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1996,13
+Health,children_with_diarrhea_3_shelter_deprivation,Proportion of children with diarrhea in last two weeks – 3 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1999,17.5
+Transport,total_number_of_motor_vehicles,Total number of motor vehicles (per 1000 population),n,-6,35,289,TZ,Tanzania, united republic of,1990,5
+Slum dwellers,urban_population_percentage_fewer_500k,Percentage of urban population (by country) – Fewer than 500 000 inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,1985,71.43
+Slum dwellers,urban_population_percentage_fewer_500k,Percentage of urban population (by country) – Fewer than 500 000 inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,1955,100
+Slum dwellers,urban_population_percentage_fewer_500k,Percentage of urban population (by country) – Fewer than 500 000 inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,2020,68.47
+Slum dwellers,urban_population_percentage_fewer_500k,Percentage of urban population (by country) – Fewer than 500 000 inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,1990,72.67
+Slum dwellers,urban_population_percentage_fewer_500k,Percentage of urban population (by country) – Fewer than 500 000 inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,1960,100
+Slum dwellers,urban_population_percentage_fewer_500k,Percentage of urban population (by country) – Fewer than 500 000 inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,2025,64.05
+Slum dwellers,urban_population_percentage_fewer_500k,Percentage of urban population (by country) – Fewer than 500 000 inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,1995,72.84
+Slum dwellers,urban_population_percentage_fewer_500k,Percentage of urban population (by country) – Fewer than 500 000 inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,1965,100
+Slum dwellers,urban_population_percentage_fewer_500k,Percentage of urban population (by country) – Fewer than 500 000 inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,2000,71.98
+Slum dwellers,urban_population_percentage_fewer_500k,Percentage of urban population (by country) – Fewer than 500 000 inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,1970,100
+Slum dwellers,urban_population_percentage_fewer_500k,Percentage of urban population (by country) – Fewer than 500 000 inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,2005,71.23
+Slum dwellers,urban_population_percentage_fewer_500k,Percentage of urban population (by country) – Fewer than 500 000 inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,1975,67.89
+Slum dwellers,urban_population_percentage_fewer_500k,Percentage of urban population (by country) – Fewer than 500 000 inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,2010,71.1
+Slum dwellers,urban_population_percentage_fewer_500k,Percentage of urban population (by country) – Fewer than 500 000 inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,1980,69.25
+Slum dwellers,urban_population_percentage_fewer_500k,Percentage of urban population (by country) – Fewer than 500 000 inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,1950,100
+Slum dwellers,urban_population_percentage_fewer_500k,Percentage of urban population (by country) – Fewer than 500 000 inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,2015,67.79
+Slum dwellers,improved_water_sustainable_access_countries,Proportion of population with sustainable access to an improved water source – Countries,p,-6,35,289,TZ,Tanzania, united republic of,1992,77.8
+Slum dwellers,improved_water_sustainable_access_countries,Proportion of population with sustainable access to an improved water source – Countries,p,-6,35,289,TZ,Tanzania, united republic of,1996,77.8
+Slum dwellers,improved_water_sustainable_access_countries,Proportion of population with sustainable access to an improved water source – Countries,p,-6,35,289,TZ,Tanzania, united republic of,2004,78.9
+Slum dwellers,improved_water_sustainable_access_countries,Proportion of population with sustainable access to an improved water source – Countries,p,-6,35,289,TZ,Tanzania, united republic of,1999,92.3
+Slum dwellers,pit_latrine_without_slab,Access to pit latrine without slab,p,-6,35,289,TZ,Tanzania, united republic of,1991,33.4
+Slum dwellers,pit_latrine_without_slab,Access to pit latrine without slab,p,-6,35,289,TZ,Tanzania, united republic of,1992,89.2
+Slum dwellers,pit_latrine_without_slab,Access to pit latrine without slab,p,-6,35,289,TZ,Tanzania, united republic of,1996,2.7
+Slum dwellers,pit_latrine_without_slab,Access to pit latrine without slab,p,-6,35,289,TZ,Tanzania, united republic of,1999,25.2
+Slum dwellers,pit_latrine_without_slab,Access to pit latrine without slab,p,-6,35,289,TZ,Tanzania, united republic of,2002,2.2
+Slum dwellers,pit_latrine_without_slab,Access to pit latrine without slab,p,-6,35,289,TZ,Tanzania, united republic of,2004,76.4
+Slum dwellers,pit_latrine_without_slab,Access to pit latrine without slab,p,-6,35,289,TZ,Tanzania, united republic of,2007,1.7
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,2050,45946
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,1950,267
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,1955,385
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,1960,528
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,1965,704
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,1970,1068
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,1975,1780
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,1980,2719
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,1985,3661
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,1990,4814
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,1995,6143
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,2000,7551
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,2005,9313
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,2007,10128
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,2010,11487
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,2015,14161
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,2020,17316
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,2025,21029
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,2030,25330
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,2035,30084
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,2040,35185
+Population,urban_population_countries,Urban population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,2045,40513
+Education,net_enrolment_rate_2_shelter_deprivation,Net enrolment rate in primary education in urban and rural areas (Male) – 2 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1992,53.2
+Education,net_enrolment_rate_2_shelter_deprivation,Net enrolment rate in primary education in urban and rural areas (Male) – 2 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1996,52.1
+Education,net_enrolment_rate_2_shelter_deprivation,Net enrolment rate in primary education in urban and rural areas (Male) – 2 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,2004,81.1
+Education,net_enrolment_rate_2_shelter_deprivation,Net enrolment rate in primary education in urban and rural areas (Male) – 2 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1999,52.9
+Slum dwellers,literacy_rate_women_3_shelter_deprivation,Literacy rate by shelter deprivation (Women) – 3 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1992,61.7
+Slum dwellers,literacy_rate_women_3_shelter_deprivation,Literacy rate by shelter deprivation (Women) – 3 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1996,60.9
+Slum dwellers,literacy_rate_women_3_shelter_deprivation,Literacy rate by shelter deprivation (Women) – 3 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,2004,82.6
+Slum dwellers,literacy_rate_women_3_shelter_deprivation,Literacy rate by shelter deprivation (Women) – 3 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1999,50.6
+Population,population_cities_by_country_1m_5m,Population in cities by country – cities with 1 to 5 million inhabitants,1000,-6,35,289,TZ,Tanzania, united republic of,1985,1046
+Population,population_cities_by_country_1m_5m,Population in cities by country – cities with 1 to 5 million inhabitants,1000,-6,35,289,TZ,Tanzania, united republic of,2020,4804
+Population,population_cities_by_country_1m_5m,Population in cities by country – cities with 1 to 5 million inhabitants,1000,-6,35,289,TZ,Tanzania, united republic of,1990,1316
+Population,population_cities_by_country_1m_5m,Population in cities by country – cities with 1 to 5 million inhabitants,1000,-6,35,289,TZ,Tanzania, united republic of,1995,1668
+Population,population_cities_by_country_1m_5m,Population in cities by country – cities with 1 to 5 million inhabitants,1000,-6,35,289,TZ,Tanzania, united republic of,2000,2116
+Population,population_cities_by_country_1m_5m,Population in cities by country – cities with 1 to 5 million inhabitants,1000,-6,35,289,TZ,Tanzania, united republic of,2005,2679
+Population,population_cities_by_country_1m_5m,Population in cities by country – cities with 1 to 5 million inhabitants,1000,-6,35,289,TZ,Tanzania, united republic of,2010,3319
+Population,population_cities_by_country_1m_5m,Population in cities by country – cities with 1 to 5 million inhabitants,1000,-6,35,289,TZ,Tanzania, united republic of,2015,4020
+Population,urban_agglomeration_population_density,Urban agglomeration population density (population/km²),n,-6.800013,39.268342,289,TZ,Dar es Salaam,2013,6500
+Population,population_capital_cities,Population of capital cities,1000,-6.183306,35.750004,289,TZ,Dodoma,2007,183
+Slum dwellers,public_tap_pump_borehole,Access to public tap/pump/borehole,p,-6,35,289,TZ,Tanzania, united republic of,1992,38.2
+Slum dwellers,public_tap_pump_borehole,Access to public tap/pump/borehole,p,-6,35,289,TZ,Tanzania, united republic of,2004,15.7
+Slum dwellers,public_tap_pump_borehole,Access to public tap/pump/borehole,p,-6,35,289,TZ,Tanzania, united republic of,1999,0.3
+Slum dwellers,literacy_rate_women_2_shelter_deprivation,Literacy rate by shelter deprivation (Women) – 2 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1992,72.1
+Slum dwellers,literacy_rate_women_2_shelter_deprivation,Literacy rate by shelter deprivation (Women) – 2 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1996,77.1
+Slum dwellers,literacy_rate_women_2_shelter_deprivation,Literacy rate by shelter deprivation (Women) – 2 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,2004,83.7
+Slum dwellers,literacy_rate_women_2_shelter_deprivation,Literacy rate by shelter deprivation (Women) – 2 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1999,73.6
+Slum dwellers,distribution_of_solid_cooking_fuel_urban,Percent distribution of solid cooking fuel – Urban,p,-6,35,289,TZ,Tanzania, united republic of,2004,87.1
+Slum dwellers,literacy_rate_slum,Literacy rate by shelter deprivation – Slum,p,-6,35,289,TZ,Tanzania, united republic of,1992,84.3
+Slum dwellers,literacy_rate_slum,Literacy rate by shelter deprivation – Slum,p,-6,35,289,TZ,Tanzania, united republic of,1996,81.4
+Slum dwellers,literacy_rate_slum,Literacy rate by shelter deprivation – Slum,p,-6,35,289,TZ,Tanzania, united republic of,2004,84.3
+Slum dwellers,literacy_rate_slum,Literacy rate by shelter deprivation – Slum,p,-6,35,289,TZ,Tanzania, united republic of,1999,79.3
+Transport,goods_hauled_by_railways,Goods hauled by railways (million passengers/km),n,-6,35,289,TZ,Tanzania, united republic of,1999,1351
+Health,children_with_diarrhea_urban,Proportion of children with diarrhea in last two weeks – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1992,14.7
+Health,children_with_diarrhea_urban,Proportion of children with diarrhea in last two weeks – Urban,p,-6,35,289,TZ,Tanzania, united republic of,2004,10
+Health,children_with_diarrhea_urban,Proportion of children with diarrhea in last two weeks – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1996,12.3
+Health,children_with_diarrhea_urban,Proportion of children with diarrhea in last two weeks – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1999,9.8
+Education,net_enrolment_rate_1_shelter_deprivation,Net enrolment rate in primary education in urban and rural areas (Male) – 1 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1992,56.6
+Education,net_enrolment_rate_1_shelter_deprivation,Net enrolment rate in primary education in urban and rural areas (Male) – 1 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1996,62.8
+Education,net_enrolment_rate_1_shelter_deprivation,Net enrolment rate in primary education in urban and rural areas (Male) – 1 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,2004,87.5
+Education,net_enrolment_rate_1_shelter_deprivation,Net enrolment rate in primary education in urban and rural areas (Male) – 1 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1999,73.1
+Streets,proportion_land_allocated_to_street_city_core,Proportion of land allocated to street – city core,p,-6.183306,35.750004,289,TZ,Dodoma,2013,13
+Streets,proportion_land_allocated_to_street_city_core,Proportion of land allocated to street – city core,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2013,10
+Health,hiv_prevalence_15_to_49_year,HIV prevalence among population 15-49 year,p,-6,35,289,TZ,Tanzania, united republic of,2001,9
+Health,hiv_prevalence_15_to_49_year,HIV prevalence among population 15-49 year,p,-6,35,289,TZ,Tanzania, united republic of,2003,7
+Streets,land_allocated_to_street_index_city_core,Land Allocated to Street Index – city core,index,-6.183306,35.750004,289,TZ,Dodoma,2013,0.414
+Streets,land_allocated_to_street_index_city_core,Land Allocated to Street Index – city core,index,-6.800013,39.268342,289,TZ,Dar es Salaam,2013,0.31
+Streets,total_road_network,Total road network (in km),n,-6,35,289,TZ,Tanzania, united republic of,2000,78891
+Resilience,refugees_by_country_of_origin,Number of refugees by country of origin,n,-6,35,289,TZ,Tanzania, united republic of,2005,1544
+Transport,owner_motorcycle_rural_area,Ownership of motorcycle – rural area,p,-6,35,289,TZ,Tanzania, united republic of,1996,0.6
+Transport,owner_motorcycle_rural_area,Ownership of motorcycle – rural area,p,-6,35,289,TZ,Tanzania, united republic of,2010,2.3
+Transport,owner_motorcycle_rural_area,Ownership of motorcycle – rural area,p,-6,35,289,TZ,Tanzania, united republic of,1999,0.5
+Transport,owner_motorcycle_rural_area,Ownership of motorcycle – rural area,p,-6,35,289,TZ,Tanzania, united republic of,2004,0.7
+Transport,owner_motorcycle_rural_area,Ownership of motorcycle – rural area,p,-6,35,289,TZ,Tanzania, united republic of,1991,0.6
+Streets,intersection_density_index_city_core,Intersection Density Index – City Core,index,-6.183306,35.750004,289,TZ,Dodoma,2013,0.401
+Streets,intersection_density_index_city_core,Intersection Density Index – City Core,index,-6.800013,39.268342,289,TZ,Dar es Salaam,2013,0.196
+City prosperity,cpi_4_dimensions,City Prosperity Index with 4 dimensions,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2012,0.53
+Health,children_with_diarrhea_rural,Proportion of children with diarrhea in last two weeks – Rural,p,-6,35,289,TZ,Tanzania, united republic of,1992,12.5
+Health,children_with_diarrhea_rural,Proportion of children with diarrhea in last two weeks – Rural,p,-6,35,289,TZ,Tanzania, united republic of,2004,13.2
+Health,children_with_diarrhea_rural,Proportion of children with diarrhea in last two weeks – Rural,p,-6,35,289,TZ,Tanzania, united republic of,1996,14
+Health,children_with_diarrhea_rural,Proportion of children with diarrhea in last two weeks – Rural,p,-6,35,289,TZ,Tanzania, united republic of,1999,12.9
+Population,pop_urban_percentage,Percentage of national population living in urban areas,p,-6,35,289,TZ,Tanzania, united republic of,2007,25
+Slum dwellers,urban_population_share_national,Share in national urban population,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2000,27.9
+Slum dwellers,urban_population_share_national,Share in national urban population,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2010,29
+Slum dwellers,urban_population_share_national,Share in national urban population,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2020,29.8
+Streets,percentage_of_roads,Percentage of roads measured in length,p,-6,35,289,TZ,Tanzania, united republic of,2000,8.6
+Slum dwellers,improved_pit_latrine,Access to improved pit latrine,p,-6,35,289,TZ,Tanzania, united republic of,1992,3.1
+Slum dwellers,improved_pit_latrine,Access to improved pit latrine,p,-6,35,289,TZ,Tanzania, united republic of,2004,12
+Slum dwellers,improved_pit_latrine,Access to improved pit latrine,p,-6,35,289,TZ,Tanzania, united republic of,2002,24.5
+Slum dwellers,improved_pit_latrine,Access to improved pit latrine,p,-6,35,289,TZ,Tanzania, united republic of,1996,28.3
+Slum dwellers,improved_pit_latrine,Access to improved pit latrine,p,-6,35,289,TZ,Tanzania, united republic of,1999,3.7
+Streets,proportion_land_allocated_to_street_total,Proportion of land allocated to street – total,p,-6.183306,35.750004,289,TZ,Dodoma,2013,9.3
+Streets,proportion_land_allocated_to_street_total,Proportion of land allocated to street – total,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2013,7.2
+Slum dwellers,improved_floor,Access to improved flooring,p,-6,35,289,TZ,Tanzania, united republic of,1991,97.3
+Slum dwellers,improved_floor,Access to improved flooring,p,-6,35,289,TZ,Tanzania, united republic of,1992,52.7
+Slum dwellers,improved_floor,Access to improved flooring,p,-6,35,289,TZ,Tanzania, united republic of,1996,97.5
+Slum dwellers,improved_floor,Access to improved flooring,p,-6,35,289,TZ,Tanzania, united republic of,1999,99
+Slum dwellers,improved_floor,Access to improved flooring,p,-6,35,289,TZ,Tanzania, united republic of,2002,97.4
+Slum dwellers,improved_floor,Access to improved flooring,p,-6,35,289,TZ,Tanzania, united republic of,2004,71.6
+Slum dwellers,improved_floor,Access to improved flooring,p,-6,35,289,TZ,Tanzania, united republic of,2007,98.5
+Slum dwellers,literacy_rate_2_shelter_deprivation,Literacy rate by shelter deprivation – 2 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1992,83.7
+Slum dwellers,literacy_rate_2_shelter_deprivation,Literacy rate by shelter deprivation – 2 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1996,77.1
+Slum dwellers,literacy_rate_2_shelter_deprivation,Literacy rate by shelter deprivation – 2 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,2004,83.7
+Slum dwellers,literacy_rate_2_shelter_deprivation,Literacy rate by shelter deprivation – 2 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1999,73.6
+Slum dwellers,literacy_rate_women_urban,Literacy rate by shelter deprivation (Women) – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1992,78.5
+Slum dwellers,literacy_rate_women_urban,Literacy rate by shelter deprivation (Women) – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1996,82.6
+Slum dwellers,literacy_rate_women_urban,Literacy rate by shelter deprivation (Women) – Urban,p,-6,35,289,TZ,Tanzania, united republic of,2004,85.5
+Slum dwellers,literacy_rate_women_urban,Literacy rate by shelter deprivation (Women) – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1999,80.3
+Population,population_estimate_urban_agglomerations,Population estimate of urban agglomeration,n,-6.800013,39.268342,289,TZ,Dar es Salaam,2013,3723000
+Slum dwellers,urban_population_percentage_500k_1m,Percentage of urban population (by country) – 500 000 to 1 million inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,1980,30.75
+Slum dwellers,urban_population_percentage_500k_1m,Percentage of urban population (by country) – 500 000 to 1 million inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,1975,32.11
+Transport,total_railway_route,Total railway route,km,-6,35,289,TZ,Tanzania, united republic of,1999,2600
+Slum dwellers,income_gini_coefficient_cities,Income Gini Coefficient – Cities,r,-1.319624,31.79996,289,TZ,Bukoba,2006,0.545
+Slum dwellers,income_gini_coefficient_cities,Income Gini Coefficient – Cities,r,-5.020018,32.800003,289,TZ,Tabora,2002,0.655
+Slum dwellers,income_gini_coefficient_cities,Income Gini Coefficient – Cities,r,-5.020018,32.800003,289,TZ,Tabora,2003,0.65
+Slum dwellers,income_gini_coefficient_cities,Income Gini Coefficient – Cities,r,-1.489587,33.799993,289,TZ,Musoma,2006,0.649
+City prosperity,cpi_equity_index,Equity Index,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2012,0.767
+Resilience,number_of_refugees_by_country_of_asylum,Number of refugees by country of asylum,n,-6,35,289,TZ,Tanzania, united republic of,2005,548824
+Slum dwellers,improved_sanitation_countries,Proportion of population with access to improved sanitation – Countries,p,-6,35,289,TZ,Tanzania, united republic of,1992,52.1
+Slum dwellers,improved_sanitation_countries,Proportion of population with access to improved sanitation – Countries,p,-6,35,289,TZ,Tanzania, united republic of,1996,51.6
+Slum dwellers,improved_sanitation_countries,Proportion of population with access to improved sanitation – Countries,p,-6,35,289,TZ,Tanzania, united republic of,2004,58.1
+Slum dwellers,improved_sanitation_countries,Proportion of population with access to improved sanitation – Countries,p,-6,35,289,TZ,Tanzania, united republic of,1999,56.7
+Health,children_with_diarrhea_total,Proportion of children with diarrhea in last two weeks – Total,p,-6,35,289,TZ,Tanzania, united republic of,1992,12.9
+Health,children_with_diarrhea_total,Proportion of children with diarrhea in last two weeks – Total,p,-6,35,289,TZ,Tanzania, united republic of,2004,12.6
+Health,children_with_diarrhea_total,Proportion of children with diarrhea in last two weeks – Total,p,-6,35,289,TZ,Tanzania, united republic of,1996,13.7
+Health,children_with_diarrhea_total,Proportion of children with diarrhea in last two weeks – Total,p,-6,35,289,TZ,Tanzania, united republic of,1999,12.4
+City prosperity,cpi_5_dimensions,City Prosperity Index with 5 dimensions,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2012,0.571
+City prosperity,cpi_infrastructure_index,Infrastructure Development index,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2012,0.607
+Slum dwellers,improved_toilet,Access to improved toilet,p,-6,35,289,TZ,Tanzania, united republic of,1991,78.6
+Slum dwellers,improved_toilet,Access to improved toilet,p,-6,35,289,TZ,Tanzania, united republic of,1992,51.7
+Slum dwellers,improved_toilet,Access to improved toilet,p,-6,35,289,TZ,Tanzania, united republic of,1996,94
+Slum dwellers,improved_toilet,Access to improved toilet,p,-6,35,289,TZ,Tanzania, united republic of,1999,83.2
+Slum dwellers,improved_toilet,Access to improved toilet,p,-6,35,289,TZ,Tanzania, united republic of,2002,95.2
+Slum dwellers,improved_toilet,Access to improved toilet,p,-6,35,289,TZ,Tanzania, united republic of,2004,57.4
+Slum dwellers,improved_toilet,Access to improved toilet,p,-6,35,289,TZ,Tanzania, united republic of,2007,95.8
+Streets,paved_road,Paved roads,p,-6,35,289,TZ,Tanzania, united republic of,2009,6.7
+Population,under_5_mortality_rate,Under-Five mortality rate (Deaths per 1000 live births),n,-6,35,289,TZ,Tanzania, united republic of,1990,157.2
+Population,under_5_mortality_rate,Under-Five mortality rate (Deaths per 1000 live births),n,-6,35,289,TZ,Tanzania, united republic of,1960,240.2
+Population,under_5_mortality_rate,Under-Five mortality rate (Deaths per 1000 live births),n,-6,35,289,TZ,Tanzania, united republic of,1995,153.7
+Population,under_5_mortality_rate,Under-Five mortality rate (Deaths per 1000 live births),n,-6,35,289,TZ,Tanzania, united republic of,2000,143.2
+Population,under_5_mortality_rate,Under-Five mortality rate (Deaths per 1000 live births),n,-6,35,289,TZ,Tanzania, united republic of,1970,217.3
+Population,under_5_mortality_rate,Under-Five mortality rate (Deaths per 1000 live births),n,-6,35,289,TZ,Tanzania, united republic of,2005,124.1
+Population,under_5_mortality_rate,Under-Five mortality rate (Deaths per 1000 live births),n,-6,35,289,TZ,Tanzania, united republic of,2007,115.6
+Population,under_5_mortality_rate,Under-Five mortality rate (Deaths per 1000 live births),n,-6,35,289,TZ,Tanzania, united republic of,1980,171.6
+Streets,total_length_road,Total length of road network (km),n,-6,35,289,TZ,Tanzania, united republic of,2009,103706
+Streets,proportion_land_allocated_to_street_sub_urban_area,Proportion of land allocated to street – suburban area,p,-6.183306,35.750004,289,TZ,Dodoma,2013,5.6
+Streets,proportion_land_allocated_to_street_sub_urban_area,Proportion of land allocated to street – suburban area,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2013,4.3
+Resilience,loss_of_lives_in_floods_per_million_population,Number of loss of lives in floods per million population,n,-6,35,289,TZ,Tanzania, united republic of,1980,0.77
+Streets,composite_street_connectivity_index_city_core,Composite Street Connectivity Index – city core,index,-6.183306,35.750004,289,TZ,Dodoma,2013,0.404
+Streets,composite_street_connectivity_index_city_core,Composite Street Connectivity Index – city core,index,-6.800013,39.268342,289,TZ,Dar es Salaam,2013,0.262
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1990,51.8
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1992,54.1
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1993,52.1
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1996,51.4
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1998,52.5
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1999,51.9
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2000,52.7
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2003,53
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2004,55.6
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1990,51.9
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1992,58
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1993,51.7
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1996,50.4
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1998,51.4
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1999,39.6
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-3.360016,36.669999,289,TZ,Arusha,2000,51.3
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-3.360016,36.669999,289,TZ,Arusha,2003,51
+Slum dwellers,improved_sanitation_cities,Proportion of population with access to improved sanitation – Cities,p,-3.360016,36.669999,289,TZ,Arusha,2004,62.5
+Population,base_year_population_estimate,Urban agglomeration base year population estimate,n,-6.800013,39.268342,289,TZ,Dar es Salaam,2013,3200000
+Transport,owner_bicycle_rural,Ownership of bicycle – rural area,p,-6,35,289,TZ,Tanzania, united republic of,1996,33.8
+Transport,owner_bicycle_rural,Ownership of bicycle – rural area,p,-6,35,289,TZ,Tanzania, united republic of,2010,46.7
+Transport,owner_bicycle_rural,Ownership of bicycle – rural area,p,-6,35,289,TZ,Tanzania, united republic of,1991,21.6
+Transport,owner_bicycle_rural,Ownership of bicycle – rural area,p,-6,35,289,TZ,Tanzania, united republic of,2004,42.2
+Transport,owner_bicycle_rural,Ownership of bicycle – rural area,p,-6,35,289,TZ,Tanzania, united republic of,1999,34.1
+Slum dwellers,protected_well,Access to protected well,p,-6,35,289,TZ,Tanzania, united republic of,2004,6.6
+Transport,passengers_carried_by_railway,Passengers carried by railway (million passengers/km),n,-6,35,289,TZ,Tanzania, united republic of,2000,471
+Population,number_of_cities_500k_1_million,Number of cities by country – 500 000 to 1 million inhabitants,n,-6,35,289,TZ,Tanzania, united republic of,2025,3
+Population,number_of_cities_500k_1_million,Number of cities by country – 500 000 to 1 million inhabitants,n,-6,35,289,TZ,Tanzania, united republic of,2015,1
+Population,number_of_cities_500k_1_million,Number of cities by country – 500 000 to 1 million inhabitants,n,-6,35,289,TZ,Tanzania, united republic of,1980,1
+Population,number_of_cities_500k_1_million,Number of cities by country – 500 000 to 1 million inhabitants,n,-6,35,289,TZ,Tanzania, united republic of,2020,1
+Population,number_of_cities_500k_1_million,Number of cities by country – 500 000 to 1 million inhabitants,n,-6,35,289,TZ,Tanzania, united republic of,1975,1
+Slum dwellers,piped_water,Access to piped water,p,-6,35,289,TZ,Tanzania, united republic of,1991,80.9
+Slum dwellers,piped_water,Access to piped water,p,-6,35,289,TZ,Tanzania, united republic of,1992,39.6
+Slum dwellers,piped_water,Access to piped water,p,-6,35,289,TZ,Tanzania, united republic of,1996,57.5
+Slum dwellers,piped_water,Access to piped water,p,-6,35,289,TZ,Tanzania, united republic of,1999,38.4
+Slum dwellers,piped_water,Access to piped water,p,-6,35,289,TZ,Tanzania, united republic of,2002,27
+Slum dwellers,piped_water,Access to piped water,p,-6,35,289,TZ,Tanzania, united republic of,2004,52
+Slum dwellers,piped_water,Access to piped water,p,-6,35,289,TZ,Tanzania, united republic of,2007,17.5
+Slum dwellers,literacy_rate_rural,Literacy rate by shelter deprivation – Rural,p,-6,35,289,TZ,Tanzania, united republic of,1992,61.5
+Slum dwellers,literacy_rate_rural,Literacy rate by shelter deprivation – Rural,p,-6,35,289,TZ,Tanzania, united republic of,1996,60.2
+Slum dwellers,literacy_rate_rural,Literacy rate by shelter deprivation – Rural,p,-6,35,289,TZ,Tanzania, united republic of,2004,61.5
+Slum dwellers,literacy_rate_rural,Literacy rate by shelter deprivation – Rural,p,-6,35,289,TZ,Tanzania, united republic of,1999,57.6
+Slum dwellers,literacy_rate_women_1_shelter_deprivation,Literacy rate by shelter deprivation (Women) – 1 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1992,86.9
+Slum dwellers,literacy_rate_women_1_shelter_deprivation,Literacy rate by shelter deprivation (Women) – 1 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,2004,85.4
+Slum dwellers,literacy_rate_women_1_shelter_deprivation,Literacy rate by shelter deprivation (Women) – 1 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1996,88.9
+Slum dwellers,literacy_rate_women_1_shelter_deprivation,Literacy rate by shelter deprivation (Women) – 1 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1999,85
+Slum dwellers,expenditure_gini_coefficient_countries,Expenditure Gini Coefficient – Countries,r,-6,35,289,TZ,Tanzania, united republic of,1993,0.579
+Streets,street_density_index_city_core,Street density index – City core,index,-6.183306,35.750004,289,TZ,Dodoma,2013,0.397
+Streets,street_density_index_city_core,Street density index – City core,index,-6.800013,39.268342,289,TZ,Dar es Salaam,2013,0.296
+Slum dwellers,pit_latrine_with_slab_or_covered_latrine,Access to slab or covered pit latrine,p,-6,35,289,TZ,Tanzania, united republic of,2007,17.6
+Streets,road_density_national_roads,Road density (km/100km²),n,-6,35,289,TZ,Tanzania, united republic of,2009,11
+Education,net_enrolment_rate_non_slum,Net enrolment rate in primary education in urban and rural areas (Male) – Non slum,p,-6,35,289,TZ,Tanzania, united republic of,1992,76
+Education,net_enrolment_rate_non_slum,Net enrolment rate in primary education in urban and rural areas (Male) – Non slum,p,-6,35,289,TZ,Tanzania, united republic of,1996,72.6
+Education,net_enrolment_rate_non_slum,Net enrolment rate in primary education in urban and rural areas (Male) – Non slum,p,-6,35,289,TZ,Tanzania, united republic of,2004,89.7
+Education,net_enrolment_rate_non_slum,Net enrolment rate in primary education in urban and rural areas (Male) – Non slum,p,-6,35,289,TZ,Tanzania, united republic of,1999,82.6
+Slum dwellers,urban_slum_population_countries,Urban slum population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,1990,3719
+Slum dwellers,urban_slum_population_countries,Urban slum population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,1995,4539
+Slum dwellers,urban_slum_population_countries,Urban slum population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,2000,5335
+Slum dwellers,urban_slum_population_countries,Urban slum population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,2005,6271
+Slum dwellers,urban_slum_population_countries,Urban slum population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,2007,6713
+Slum dwellers,urban_slum_population_countries,Urban slum population – Countries,1000,-6,35,289,TZ,Tanzania, united republic of,2009,7200
+Health,children_with_diarrhea_non_slum,Proportion of children with diarrhea in last two weeks – Non-slum,p,-6,35,289,TZ,Tanzania, united republic of,1992,14.3
+Health,children_with_diarrhea_non_slum,Proportion of children with diarrhea in last two weeks – Non-slum,p,-6,35,289,TZ,Tanzania, united republic of,2004,10.6
+Health,children_with_diarrhea_non_slum,Proportion of children with diarrhea in last two weeks – Non-slum,p,-6,35,289,TZ,Tanzania, united republic of,1996,12.2
+Health,children_with_diarrhea_non_slum,Proportion of children with diarrhea in last two weeks – Non-slum,p,-6,35,289,TZ,Tanzania, united republic of,1999,8.6
+Health,children_with_diarrhea_1_shelter_deprivation,Proportion of children with diarrhea in last two weeks – 1 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1992,12.9
+Health,children_with_diarrhea_1_shelter_deprivation,Proportion of children with diarrhea in last two weeks – 1 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,2004,8.3
+Health,children_with_diarrhea_1_shelter_deprivation,Proportion of children with diarrhea in last two weeks – 1 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1996,13.7
+Health,children_with_diarrhea_1_shelter_deprivation,Proportion of children with diarrhea in last two weeks – 1 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1999,10.5
+Resilience,loss_of_lives_in_floods,Average annual loss of lives in floods,n,-6,35,289,TZ,Tanzania, united republic of,1980,22
+Population,has_telephone,Access to telephone,p,-6,35,289,TZ,Tanzania, united republic of,2004,27.9
+Population,has_telephone,Access to telephone,p,-6,35,289,TZ,Tanzania, united republic of,2002,48
+Population,has_telephone,Access to telephone,p,-6,35,289,TZ,Tanzania, united republic of,2007,34.8
+Population,has_telephone,Access to telephone,p,-6,35,289,TZ,Tanzania, united republic of,1996,40.7
+Population,has_telephone,Access to telephone,p,-6,35,289,TZ,Tanzania, united republic of,1999,47
+Slum dwellers,improved_flush_toilet,Access to improved flush toilet,p,-6,35,289,TZ,Tanzania, united republic of,1991,62.7
+Slum dwellers,improved_flush_toilet,Access to improved flush toilet,p,-6,35,289,TZ,Tanzania, united republic of,1992,4.5
+Slum dwellers,improved_flush_toilet,Access to improved flush toilet,p,-6,35,289,TZ,Tanzania, united republic of,1996,64.7
+Slum dwellers,improved_flush_toilet,Access to improved flush toilet,p,-6,35,289,TZ,Tanzania, united republic of,1999,67.3
+Slum dwellers,improved_flush_toilet,Access to improved flush toilet,p,-6,35,289,TZ,Tanzania, united republic of,2002,69.7
+Slum dwellers,improved_flush_toilet,Access to improved flush toilet,p,-6,35,289,TZ,Tanzania, united republic of,2004,9.1
+Slum dwellers,improved_flush_toilet,Access to improved flush toilet,p,-6,35,289,TZ,Tanzania, united republic of,2007,78.2
+Slum dwellers,literacy_rate_women_slum,Literacy rate by shelter deprivation (Women) – Slum,p,-6,35,289,TZ,Tanzania, united republic of,1992,77.1
+Slum dwellers,literacy_rate_women_slum,Literacy rate by shelter deprivation (Women) – Slum,p,-6,35,289,TZ,Tanzania, united republic of,1996,81.4
+Slum dwellers,literacy_rate_women_slum,Literacy rate by shelter deprivation (Women) – Slum,p,-6,35,289,TZ,Tanzania, united republic of,2004,84.3
+Slum dwellers,literacy_rate_women_slum,Literacy rate by shelter deprivation (Women) – Slum,p,-6,35,289,TZ,Tanzania, united republic of,1999,79.3
+Slum dwellers,pump_borehole,Access to pump/borehole,p,-6,35,289,TZ,Tanzania, united republic of,2004,3.2
+Slum dwellers,pump_borehole,Access to pump/borehole,p,-6,35,289,TZ,Tanzania, united republic of,2007,0.5
+Slum dwellers,literacy_rate_women_rural,Literacy rate by shelter deprivation (Women) – Rural,p,-6,35,289,TZ,Tanzania, united republic of,1992,56.7
+Slum dwellers,literacy_rate_women_rural,Literacy rate by shelter deprivation (Women) – Rural,p,-6,35,289,TZ,Tanzania, united republic of,1996,60.2
+Slum dwellers,literacy_rate_women_rural,Literacy rate by shelter deprivation (Women) – Rural,p,-6,35,289,TZ,Tanzania, united republic of,2004,61.5
+Slum dwellers,literacy_rate_women_rural,Literacy rate by shelter deprivation (Women) – Rural,p,-6,35,289,TZ,Tanzania, united republic of,1999,57.6
+Transport,owner_motorcycle_total,Ownership of motorcycle – total,p,-6,35,289,TZ,Tanzania, united republic of,1996,0.8
+Transport,owner_motorcycle_total,Ownership of motorcycle – total,p,-6,35,289,TZ,Tanzania, united republic of,2010,3.1
+Transport,owner_motorcycle_total,Ownership of motorcycle – total,p,-6,35,289,TZ,Tanzania, united republic of,1999,0.7
+Transport,owner_motorcycle_total,Ownership of motorcycle – total,p,-6,35,289,TZ,Tanzania, united republic of,2004,1.1
+Transport,owner_motorcycle_total,Ownership of motorcycle – total,p,-6,35,289,TZ,Tanzania, united republic of,1991,0.8
+Slum dwellers,literacy_rate_women_non_slum,Literacy rate by shelter deprivation – Non slum,p,-6,35,289,TZ,Tanzania, united republic of,1992,93.8
+Slum dwellers,literacy_rate_women_non_slum,Literacy rate by shelter deprivation – Non slum,p,-6,35,289,TZ,Tanzania, united republic of,2004,88.2
+Slum dwellers,literacy_rate_women_non_slum,Literacy rate by shelter deprivation – Non slum,p,-6,35,289,TZ,Tanzania, united republic of,1996,94
+Slum dwellers,literacy_rate_women_non_slum,Literacy rate by shelter deprivation – Non slum,p,-6,35,289,TZ,Tanzania, united republic of,1999,92
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,2050,85077
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,1950,7650
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,1955,8740
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,1960,10072
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,1965,11679
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,1970,13598
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,1975,15970
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,1980,18681
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,1985,21833
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,1990,25494
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,1995,29902
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,2000,33849
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,2005,38478
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,2007,40454
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,2010,43542
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,2015,48999
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,2020,54479
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,2025,59989
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,2030,65516
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,2035,70936
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,2040,76084
+Population,population,Total population,1000,-6,35,289,TZ,Tanzania, united republic of,2045,80823
+Transport,owner_bicycle_urban_area,Ownership of bicycle – urban area,p,-6,35,289,TZ,Tanzania, united republic of,1996,25
+Transport,owner_bicycle_urban_area,Ownership of bicycle – urban area,p,-6,35,289,TZ,Tanzania, united republic of,2010,33.7
+Transport,owner_bicycle_urban_area,Ownership of bicycle – urban area,p,-6,35,289,TZ,Tanzania, united republic of,1991,21.4
+Transport,owner_bicycle_urban_area,Ownership of bicycle – urban area,p,-6,35,289,TZ,Tanzania, united republic of,2004,27.5
+Transport,owner_bicycle_urban_area,Ownership of bicycle – urban area,p,-6,35,289,TZ,Tanzania, united republic of,1999,27.3
+Land area,urban_agglomeration_land_area,Urban agglomeration land area (km²),n,-6.800013,39.268342,289,TZ,Dar es Salaam,2013,570
+Slum dwellers,distribution_of_solid_cooking_fuel_non_slum,Percent distribution of solid cooking fuel – Non slum,p,-6,35,289,TZ,Tanzania, united republic of,2004,81
+Population,number_of_cities_5_10_million,Number of cities by country – 5 to 10 million inhabitants,n,-6,35,289,TZ,Tanzania, united republic of,2025,1
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1990,93.9
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1992,80
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1993,91
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1996,87.9
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1998,86.2
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1999,86.5
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2000,84.3
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2003,81.4
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2004,93.8
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1990,92.8
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1992,54.1
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1993,94.6
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1996,61.2
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1998,97.5
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1999,51.5
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-3.360016,36.669999,289,TZ,Arusha,2000,98.7
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-3.360016,36.669999,289,TZ,Arusha,2003,98.7
+Slum dwellers,durable_housing_urban_population_cities,Proportion of urban population with durable housing – Cities,p,-3.360016,36.669999,289,TZ,Arusha,2004,62.2
+Slum dwellers,literacy_rate_3_shelter_deprivation,Literacy rate by shelter deprivation – 3 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1992,82.6
+Slum dwellers,literacy_rate_3_shelter_deprivation,Literacy rate by shelter deprivation – 3 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1996,60.9
+Slum dwellers,literacy_rate_3_shelter_deprivation,Literacy rate by shelter deprivation – 3 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,2004,82.6
+Slum dwellers,literacy_rate_3_shelter_deprivation,Literacy rate by shelter deprivation – 3 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1999,50.6
+City prosperity,cpi_quality_of_live_index,Quality of life index,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2012,0.371
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-6.820011,37.660016,289,TZ,Morogoro,1993,0.476
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-7.769617,35.690007,289,TZ,Iringa,1993,0.697
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-10.26962,40.189991,289,TZ,Mtwara,1993,0.642
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-6.800013,39.268342,289,TZ,Dar es Salaam,1993,0.461
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-2.520015,32.930021,289,TZ,Mwanza,1993,0.583
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-7.95958,31.620023,289,TZ,Sumbawanga,1993,0.534
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-6.183306,35.750004,289,TZ,Dodoma,1993,0.591
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-4.21955,35.750004,289,TZ,Babati,1993,0.553
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-3.659584,33.420017,289,TZ,Shinyanga,1993,0.552
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-1.489587,33.799993,289,TZ,Musoma,1993,0.533
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-1.489587,33.799993,289,TZ,Musoma,2006,0.464
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-5.070041,39.090006,289,TZ,Tanga,1993,0.522
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-4.819617,34.740039,289,TZ,Singida,1993,0.5
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-1.319624,31.79996,289,TZ,Bukoba,1993,0.537
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-1.319624,31.79996,289,TZ,Bukoba,2006,0.348
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-4.879613,29.610017,289,TZ,Kigoma,1993,0.428
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-6.766704,38.916703,289,TZ,Kibaha,1993,0.587
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-3.360016,36.669999,289,TZ,Arusha,1993,0.487
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-5.020018,32.800003,289,TZ,Tabora,1993,0.574
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-10.000024,39.699995,289,TZ,Lindi,1993,0.521
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-10.680034,35.65001,289,TZ,Songea,1993,0.469
+Slum dwellers,expenditure_gini_coefficient_cities,Expenditure Gini Coefficient – Cities,r,-8.890014,33.430042,289,TZ,Mbeya,1993,0.581
+Transport,owner_bicycle_total,Ownership of bicycle – total,p,-6,35,289,TZ,Tanzania, united republic of,1996,31.9
+Transport,owner_bicycle_total,Ownership of bicycle – total,p,-6,35,289,TZ,Tanzania, united republic of,2010,43.3
+Transport,owner_bicycle_total,Ownership of bicycle – total,p,-6,35,289,TZ,Tanzania, united republic of,1991,21.5
+Transport,owner_bicycle_total,Ownership of bicycle – total,p,-6,35,289,TZ,Tanzania, united republic of,2004,38.3
+Transport,owner_bicycle_total,Ownership of bicycle – total,p,-6,35,289,TZ,Tanzania, united republic of,1999,32.3
+City prosperity,cpi_environment_index,Environmental Sustainability index,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2012,0.822
+Slum dwellers,connection_to_electricity,Connection to electricity,p,-6,35,289,TZ,Tanzania, united republic of,1992,23.9
+Slum dwellers,connection_to_electricity,Connection to electricity,p,-6,35,289,TZ,Tanzania, united republic of,2002,98.7
+Slum dwellers,connection_to_electricity,Connection to electricity,p,-6,35,289,TZ,Tanzania, united republic of,1991,96.5
+Slum dwellers,connection_to_electricity,Connection to electricity,p,-6,35,289,TZ,Tanzania, united republic of,2004,38.9
+Slum dwellers,connection_to_electricity,Connection to electricity,p,-6,35,289,TZ,Tanzania, united republic of,2007,98.6
+Streets,street_length,Street length,n,-6.800013,39.268342,289,TZ,Dar es Salaam,2012,1140
+Slum dwellers,rainwater,Access to rainwater,p,-6,35,289,TZ,Tanzania, united republic of,1991,3.1
+Slum dwellers,rainwater,Access to rainwater,p,-6,35,289,TZ,Tanzania, united republic of,1996,3.1
+Slum dwellers,rainwater,Access to rainwater,p,-6,35,289,TZ,Tanzania, united republic of,1999,3.2
+Slum dwellers,rainwater,Access to rainwater,p,-6,35,289,TZ,Tanzania, united republic of,2002,3.7
+Slum dwellers,rainwater,Access to rainwater,p,-6,35,289,TZ,Tanzania, united republic of,2004,0.1
+Slum dwellers,rainwater,Access to rainwater,p,-6,35,289,TZ,Tanzania, united republic of,2007,2.3
+Streets,paved_street,Paved streets as share of all streets (%),p,-6.800013,39.268342,289,TZ,Dar es Salaam,2012,39
+Population,number_of_cities_1_5_million,Number of cities by country – 1 to 5 million inhabitants,n,-6,35,289,TZ,Tanzania, united republic of,1985,1
+Population,number_of_cities_1_5_million,Number of cities by country – 1 to 5 million inhabitants,n,-6,35,289,TZ,Tanzania, united republic of,2020,1
+Population,number_of_cities_1_5_million,Number of cities by country – 1 to 5 million inhabitants,n,-6,35,289,TZ,Tanzania, united republic of,1990,1
+Population,number_of_cities_1_5_million,Number of cities by country – 1 to 5 million inhabitants,n,-6,35,289,TZ,Tanzania, united republic of,1995,1
+Population,number_of_cities_1_5_million,Number of cities by country – 1 to 5 million inhabitants,n,-6,35,289,TZ,Tanzania, united republic of,2000,1
+Population,number_of_cities_1_5_million,Number of cities by country – 1 to 5 million inhabitants,n,-6,35,289,TZ,Tanzania, united republic of,2005,1
+Population,number_of_cities_1_5_million,Number of cities by country – 1 to 5 million inhabitants,n,-6,35,289,TZ,Tanzania, united republic of,2010,1
+Population,number_of_cities_1_5_million,Number of cities by country – 1 to 5 million inhabitants,n,-6,35,289,TZ,Tanzania, united republic of,2015,1
+Slum dwellers,urban_population_living_in_slum,Proportion of urban population living in slum area,p,-6,35,289,TZ,Tanzania, united republic of,1990,77.4
+Slum dwellers,urban_population_living_in_slum,Proportion of urban population living in slum area,p,-6,35,289,TZ,Tanzania, united republic of,1995,73.7
+Slum dwellers,urban_population_living_in_slum,Proportion of urban population living in slum area,p,-6,35,289,TZ,Tanzania, united republic of,2000,70.1
+Slum dwellers,urban_population_living_in_slum,Proportion of urban population living in slum area,p,-6,35,289,TZ,Tanzania, united republic of,2005,66.4
+Slum dwellers,urban_population_living_in_slum,Proportion of urban population living in slum area,p,-6,35,289,TZ,Tanzania, united republic of,2007,65
+Slum dwellers,urban_population_living_in_slum,Proportion of urban population living in slum area,p,-6,35,289,TZ,Tanzania, united republic of,2009,63.5
+Education,net_enrolment_rate_slum,Net enrolment rate in primary education in urban and rural areas (Male) – Slum,p,-6,35,289,TZ,Tanzania, united republic of,1992,51.1
+Education,net_enrolment_rate_slum,Net enrolment rate in primary education in urban and rural areas (Male) – Slum,p,-6,35,289,TZ,Tanzania, united republic of,1996,55
+Education,net_enrolment_rate_slum,Net enrolment rate in primary education in urban and rural areas (Male) – Slum,p,-6,35,289,TZ,Tanzania, united republic of,2004,83.2
+Education,net_enrolment_rate_slum,Net enrolment rate in primary education in urban and rural areas (Male) – Slum,p,-6,35,289,TZ,Tanzania, united republic of,1999,65
+Education,net_enrolment_rate_3_shelter_deprivation,Net enrolment rate in primary education in urban and rural areas (Male) – 3 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1992,37.9
+Education,net_enrolment_rate_3_shelter_deprivation,Net enrolment rate in primary education in urban and rural areas (Male) – 3 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1996,42.4
+Education,net_enrolment_rate_3_shelter_deprivation,Net enrolment rate in primary education in urban and rural areas (Male) – 3 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,2004,75.4
+Education,net_enrolment_rate_3_shelter_deprivation,Net enrolment rate in primary education in urban and rural areas (Male) – 3 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1999,11
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2000,4.79
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2010,5.08
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1985,2.38
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1955,3.48
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,2020,1.96
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1990,1.68
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1960,2.79
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,2025,1.96
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1995,1.65
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1965,5.28
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,2030,1.85
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,2000,1.63
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1970,7.01
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,2035,1.73
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,2005,1.73
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1975,5.34
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,2040,1.61
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,2010,1.82
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1980,2.83
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,2045,1.49
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1950,4.67
+Population,avg_annual_rate_change_percentage_urban,Average annual rate of change of population – Urban,p,-6,35,289,TZ,Tanzania, united republic of,2015,1.9
+Streets,intersection_density_city_core,Intersection density (#/km²) – city core,n,-6.183306,35.750004,289,TZ,Dodoma,2013,70.2
+Streets,intersection_density_city_core,Intersection density (#/km²) – city core,n,-6.800013,39.268342,289,TZ,Dar es Salaam,2013,34.3
+Transport,owner_motorcycle_urban_area,Ownership of motorcycle – urban area,p,-6,35,289,TZ,Tanzania, united republic of,1996,1.7
+Transport,owner_motorcycle_urban_area,Ownership of motorcycle – urban area,p,-6,35,289,TZ,Tanzania, united republic of,2010,5.2
+Transport,owner_motorcycle_urban_area,Ownership of motorcycle – urban area,p,-6,35,289,TZ,Tanzania, united republic of,1991,1.3
+Transport,owner_motorcycle_urban_area,Ownership of motorcycle – urban area,p,-6,35,289,TZ,Tanzania, united republic of,2004,2.4
+Transport,owner_motorcycle_urban_area,Ownership of motorcycle – urban area,p,-6,35,289,TZ,Tanzania, united republic of,1999,1.5
+Transport,passengers_carried_by_air,Passengers carried by air,1000,-6,35,289,TZ,Tanzania, united republic of,2004,248
+Population,percentage_of_international_migrants,Percentage of international migrants,p,-6,35,289,TZ,Tanzania, united republic of,2000,2.6
+Population,percentage_of_international_migrants,Percentage of international migrants,p,-6,35,289,TZ,Tanzania, united republic of,1995,3.7
+Population,percentage_of_international_migrants,Percentage of international migrants,p,-6,35,289,TZ,Tanzania, united republic of,2005,2.1
+Education,net_enrolment_rate_urban,Net enrolment rate in primary education in urban and rural areas (Male) – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1992,54.5
+Education,net_enrolment_rate_urban,Net enrolment rate in primary education in urban and rural areas (Male) – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1996,58.6
+Education,net_enrolment_rate_urban,Net enrolment rate in primary education in urban and rural areas (Male) – Urban,p,-6,35,289,TZ,Tanzania, united republic of,2004,85
+Education,net_enrolment_rate_urban,Net enrolment rate in primary education in urban and rural areas (Male) – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1999,70.4
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1990,93.9
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1992,90.5
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1993,91
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1996,85.4
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1998,86.2
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,1999,90.1
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2000,84.3
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2003,81.4
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2004,81.1
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1990,92.8
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1992,92.9
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1993,94.6
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1996,96.1
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1998,97.5
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-3.360016,36.669999,289,TZ,Arusha,1999,97.8
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-3.360016,36.669999,289,TZ,Arusha,2000,98.7
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-3.360016,36.669999,289,TZ,Arusha,2003,98.7
+Slum dwellers,improved_water_sustainable_access_cities,Proportion of population with sustainable access to an improved water source – Cities,p,-3.360016,36.669999,289,TZ,Arusha,2004,94.6
+Health,children_with_diarrhea_2_shelter_deprivation,Proportion of children with diarrhea in last two weeks – 2 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1992,15.5
+Health,children_with_diarrhea_2_shelter_deprivation,Proportion of children with diarrhea in last two weeks – 2 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1996,10.2
+Health,children_with_diarrhea_2_shelter_deprivation,Proportion of children with diarrhea in last two weeks – 2 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,2004,11.8
+Health,children_with_diarrhea_2_shelter_deprivation,Proportion of children with diarrhea in last two weeks – 2 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1999,9.7
+Education,net_enrolment_rate_rural,Net enrolment rate in primary education in urban and rural areas (Male) – Rural,p,-6,35,289,TZ,Tanzania, united republic of,1992,47.9
+Education,net_enrolment_rate_rural,Net enrolment rate in primary education in urban and rural areas (Male) – Rural,p,-6,35,289,TZ,Tanzania, united republic of,1996,45.7
+Education,net_enrolment_rate_rural,Net enrolment rate in primary education in urban and rural areas (Male) – Rural,p,-6,35,289,TZ,Tanzania, united republic of,2004,67.4
+Education,net_enrolment_rate_rural,Net enrolment rate in primary education in urban and rural areas (Male) – Rural,p,-6,35,289,TZ,Tanzania, united republic of,1999,47
+Slum dwellers,urban_population_percentage_1m_5m,Percentage of urban population (by country) – 1 to 5 million inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,1985,28.57
+Slum dwellers,urban_population_percentage_1m_5m,Percentage of urban population (by country) – 1 to 5 million inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,2020,27.74
+Slum dwellers,urban_population_percentage_1m_5m,Percentage of urban population (by country) – 1 to 5 million inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,1990,27.33
+Slum dwellers,urban_population_percentage_1m_5m,Percentage of urban population (by country) – 1 to 5 million inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,1995,27.16
+Slum dwellers,urban_population_percentage_1m_5m,Percentage of urban population (by country) – 1 to 5 million inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,2005,28.77
+Slum dwellers,urban_population_percentage_1m_5m,Percentage of urban population (by country) – 1 to 5 million inhabitants,p,-6,35,289,TZ,Tanzania, united republic of,2015,28.39
+Population,urban_population_cities,Urban population – Cities,1000,-6.800013,39.268342,289,TZ,Dar es Salaam,2000,2116
+Population,urban_population_cities,Urban population – Cities,1000,-6.800013,39.268342,289,TZ,Dar es Salaam,2010,3415
+Population,urban_population_cities,Urban population – Cities,1000,-6.800013,39.268342,289,TZ,Dar es Salaam,2020,5677
+Resilience,loss_of_lives_by_earthquake,Average annual loss of lives in earthquake,n,-6,35,289,TZ,Tanzania, united republic of,1980,0.05
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2048,1.03
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2049,1.03
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1950,2.66
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1951,2.66
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1952,2.66
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1953,2.66
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1954,2.66
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1955,2.84
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1956,2.84
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1957,2.84
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1958,2.84
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1959,2.84
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1960,2.96
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1961,2.96
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1962,2.96
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1963,2.96
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1964,2.96
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1965,3.04
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1966,3.04
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1967,3.04
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1968,3.04
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1969,3.04
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1970,3.22
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1971,3.22
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1972,3.22
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1973,3.22
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1974,3.22
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1975,3.14
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1976,3.14
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1977,3.14
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1978,3.14
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1979,3.14
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1980,3.12
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1981,3.12
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1982,3.12
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1983,3.12
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1984,3.12
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1985,3.1
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1986,3.1
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1987,3.1
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1988,3.1
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1989,3.1
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1990,3.19
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1991,3.19
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1992,3.19
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1993,3.19
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1994,3.19
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1995,2.48
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1996,2.48
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1997,2.48
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1998,2.48
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,1999,2.48
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2000,2.56
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2001,2.56
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2002,2.56
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2003,2.56
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2004,2.56
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2005,2.47
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2006,2.47
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2007,2.47
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2008,2.47
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2009,2.47
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2010,2.36
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2011,2.36
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2012,2.36
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2013,2.36
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2014,2.36
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2015,2.12
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2016,2.12
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2017,2.12
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2018,2.12
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2019,2.12
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2020,1.93
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2021,1.93
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2022,1.93
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2023,1.93
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2024,1.93
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2025,1.76
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2026,1.76
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2027,1.76
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2028,1.76
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2029,1.76
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2030,1.59
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2031,1.59
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2032,1.59
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2033,1.59
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2034,1.59
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2035,1.4
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2036,1.4
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2037,1.4
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2038,1.4
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2039,1.4
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2040,1.21
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2041,1.21
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2042,1.21
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2043,1.21
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2044,1.21
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2045,1.03
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2046,1.03
+Population,avg_annual_rate_change_percentage_total,Average annual rate of change of population – Total,p,-6,35,289,TZ,Tanzania, united republic of,2047,1.03
+Slum dwellers,distribution_of_solid_cooking_fuel_slum,Percent distribution of solid cooking fuel – Slum,p,-6,35,289,TZ,Tanzania, united republic of,2004,90.1
+Slum dwellers,literacy_rate_non_slum,Literacy rate by shelter deprivation – Non slum,p,-6,35,289,TZ,Tanzania, united republic of,1992,88.2
+Slum dwellers,literacy_rate_non_slum,Literacy rate by shelter deprivation – Non slum,p,-6,35,289,TZ,Tanzania, united republic of,2004,88.2
+Slum dwellers,literacy_rate_non_slum,Literacy rate by shelter deprivation – Non slum,p,-6,35,289,TZ,Tanzania, united republic of,1996,94
+Slum dwellers,literacy_rate_non_slum,Literacy rate by shelter deprivation – Non slum,p,-6,35,289,TZ,Tanzania, united republic of,1999,92
+Health,children_with_diarrhea_slum,Proportion of children with diarrhea in last two weeks – Slum,p,-6,35,289,TZ,Tanzania, united republic of,1992,14.8
+Health,children_with_diarrhea_slum,Proportion of children with diarrhea in last two weeks – Slum,p,-6,35,289,TZ,Tanzania, united republic of,2004,9.9
+Health,children_with_diarrhea_slum,Proportion of children with diarrhea in last two weeks – Slum,p,-6,35,289,TZ,Tanzania, united republic of,1996,12.3
+Health,children_with_diarrhea_slum,Proportion of children with diarrhea in last two weeks – Slum,p,-6,35,289,TZ,Tanzania, united republic of,1999,10.4
+Streets,street_density_city_core,Street density (km/km²) – city core,n,-6.183306,35.750004,289,TZ,Dodoma,2013,12.5
+Streets,street_density_city_core,Street density (km/km²) – city core,n,-6.800013,39.268342,289,TZ,Dar es Salaam,2013,9.6
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,2050,39131
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,1950,7383
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,1955,8355
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,1960,9544
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,1965,10974
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,1970,12531
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,1975,14190
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,1980,15962
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,1985,18172
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,1990,20680
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,1995,23759
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,2000,26297
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,2005,29165
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,2007,30326
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,2010,32054
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,2015,34838
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,2020,37163
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,2025,38959
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,2030,40185
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,2035,40852
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,2040,40899
+Population,rural_population,Rural population,1000,-6,35,289,TZ,Tanzania, united republic of,2045,40310
+City prosperity,cpi_productivity_index,Productivity index,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2012,0.427
+Slum dwellers,slum_population,Slum population – Urban,1000,-6,35,289,TZ,Tanzania, united republic of,2000,5291
+Slum dwellers,slum_population,Slum population – Urban,1000,-6,35,289,TZ,Tanzania, united republic of,1995,4528
+Slum dwellers,slum_population,Slum population – Urban,1000,-6,35,289,TZ,Tanzania, united republic of,2005,6186
+Slum dwellers,slum_population,Slum population – Urban,1000,-6,35,289,TZ,Tanzania, united republic of,1990,3725
+Slum dwellers,slum_population,Slum population – Urban,1000,-6,35,289,TZ,Tanzania, united republic of,2007,6580
+Slum dwellers,literacy_rate_1_shelter_deprivation,Literacy rate by shelter deprivation – 1 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1992,85.4
+Slum dwellers,literacy_rate_1_shelter_deprivation,Literacy rate by shelter deprivation – 1 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,2004,85.4
+Slum dwellers,literacy_rate_1_shelter_deprivation,Literacy rate by shelter deprivation – 1 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1996,88.9
+Slum dwellers,literacy_rate_1_shelter_deprivation,Literacy rate by shelter deprivation – 1 Shelter deprivation,p,-6,35,289,TZ,Tanzania, united republic of,1999,85
+Transport,transport_share_cities_walking,Share of various modes of transport in use in cities – walking,p,-6.800013,39.268342,289,TZ,Dar es Salaam,2008,26
+Slum dwellers,slum_proportion_living_urban,Percentage of slum population in urban area,p,-6,35,289,TZ,Tanzania, united republic of,2000,70.1
+Slum dwellers,slum_proportion_living_urban,Percentage of slum population in urban area,p,-6,35,289,TZ,Tanzania, united republic of,1995,73.7
+Slum dwellers,slum_proportion_living_urban,Percentage of slum population in urban area,p,-6,35,289,TZ,Tanzania, united republic of,2005,66.4
+Slum dwellers,slum_proportion_living_urban,Percentage of slum population in urban area,p,-6,35,289,TZ,Tanzania, united republic of,1990,77.4
+Slum dwellers,slum_proportion_living_urban,Percentage of slum population in urban area,p,-6,35,289,TZ,Tanzania, united republic of,2007,65
+Slum dwellers,durable_housing_urban_population_countries,Proportion of urban population with durable housing – Countries,p,-6,35,289,TZ,Tanzania, united republic of,1992,52.7
+Slum dwellers,durable_housing_urban_population_countries,Proportion of urban population with durable housing – Countries,p,-6,35,289,TZ,Tanzania, united republic of,1996,64.6
+Slum dwellers,durable_housing_urban_population_countries,Proportion of urban population with durable housing – Countries,p,-6,35,289,TZ,Tanzania, united republic of,2004,71.6
+Slum dwellers,durable_housing_urban_population_countries,Proportion of urban population with durable housing – Countries,p,-6,35,289,TZ,Tanzania, united republic of,1999,62.8
+Slum dwellers,literacy_rate_urban,Literacy rate by shelter deprivation – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1992,85.5
+Slum dwellers,literacy_rate_urban,Literacy rate by shelter deprivation – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1996,82.6
+Slum dwellers,literacy_rate_urban,Literacy rate by shelter deprivation – Urban,p,-6,35,289,TZ,Tanzania, united republic of,2004,85.5
+Slum dwellers,literacy_rate_urban,Literacy rate by shelter deprivation – Urban,p,-6,35,289,TZ,Tanzania, united republic of,1999,80.3
+Slum dwellers,income_gini_coefficient_countries,Income Gini Coefficient – Countries,r,-6,35,289,TZ,Tanzania, united republic of,2006,0.578

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "TZ1004",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "node/7553729793", "name": "Ndilimalitembo", "place": "village", "adm1_pcode": "TZ10", "adm1_name": "Ruvuma", "adm2_pcode": "TZ1004", "adm2_name": "Songea Urban", "adm3_pcode": "TZ1004212", "adm3_name": "Ndilimalitembo", "latitude": -10.71657, "longitude": 35.66762 }, "geometry": { "type": "Point", "coordinates": [ 35.6676223, -10.7165684 ] } },
+{ "type": "Feature", "properties": { "id": "node/7553729794", "name": "Mahilo", "place": "village", "adm1_pcode": "TZ10", "adm1_name": "Ruvuma", "adm2_pcode": "TZ1004", "adm2_name": "Songea Urban", "adm3_pcode": "TZ1004082", "adm3_name": "Matogoro", "latitude": -10.709, "longitude": 35.70386 }, "geometry": { "type": "Point", "coordinates": [ 35.7038642, -10.7089994 ] } },
+{ "type": "Feature", "properties": { "id": "node/7553718983", "name": "Ruvuma", "place": "village", "adm1_pcode": "TZ10", "adm1_name": "Ruvuma", "adm2_pcode": "TZ1004", "adm2_name": "Songea Urban", "adm3_pcode": "TZ1004022", "adm3_name": "Majengo", "latitude": -10.68835, "longitude": 35.63875 }, "geometry": { "type": "Point", "coordinates": [ 35.638751, -10.688347 ] } }
+]
+}

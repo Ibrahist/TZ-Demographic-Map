@@ -23,6 +23,7 @@ export const Tooltip: React.FC<{ data: HoverTooltipData | null }> = ({ data }) =
         <div className="bg-slate-800/80 p-1.5 rounded">Density: <span className="font-bold">{data.properties?.population_density || 'N/A'} /km²</span></div>
       </div>
       <div className="mt-2 text-[10px] text-slate-400">Urban: {data.properties?.pct_urban}% | Rural: {data.properties?.pct_rural}%</div>
+      <div className="mt-1 text-[10px] text-slate-400">&lt;15: {data.properties?.pct_under_15}% | 65+: {data.properties?.pct_65_plus}%</div>
     </div>
   );
 };

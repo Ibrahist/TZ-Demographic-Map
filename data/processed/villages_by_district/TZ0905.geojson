@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "TZ0905",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "node/10688785036", "name": "Naliendele", "place": "village", "adm1_pcode": "TZ09", "adm1_name": "Mtwara", "adm2_pcode": "TZ0905", "adm2_name": "Mtwara Urban", "adm3_pcode": "TZ0905151", "adm3_name": "Naliendele", "latitude": -10.36471, "longitude": 40.16257 }, "geometry": { "type": "Point", "coordinates": [ 40.1625663, -10.3647106 ] } },
+{ "type": "Feature", "properties": { "id": "node/367106761", "name": "Mikindani Historic Town", "place": "village", "adm1_pcode": "TZ09", "adm1_name": "Mtwara", "adm2_pcode": "TZ0905", "adm2_name": "Mtwara Urban", "adm3_pcode": "TZ0905132", "adm3_name": "Magengeni", "latitude": -10.28183, "longitude": 40.1175 }, "geometry": { "type": "Point", "coordinates": [ 40.117495, -10.2818332 ] } },
+{ "type": "Feature", "properties": { "id": "node/258162316", "name": "Mtwara", "place": "city", "adm1_pcode": "TZ09", "adm1_name": "Mtwara", "adm2_pcode": "TZ0905", "adm2_name": "Mtwara Urban", "adm3_pcode": "TZ0905122", "adm3_name": "Ufukoni", "latitude": -10.28381, "longitude": 40.17891 }, "geometry": { "type": "Point", "coordinates": [ 40.1789136, -10.2838146 ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "TZ5302",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "node/3320526612", "name": "Zanzibar City مدينة زنجبار", "place": "city", "adm1_pcode": "TZ53", "adm1_name": "Mjini Magharibi", "adm2_pcode": "TZ5302", "adm2_name": "Mjini", "adm3_pcode": "TZ5302372", "adm3_name": "Matarumbeta", "latitude": -6.16649, "longitude": 39.20743 }, "geometry": { "type": "Point", "coordinates": [ 39.2074312, -6.1664908 ] } },
+{ "type": "Feature", "properties": { "id": "node/6771688364", "name": "Uswazi", "place": "town", "adm1_pcode": "TZ53", "adm1_name": "Mjini Magharibi", "adm2_pcode": "TZ5302", "adm2_name": "Mjini", "adm3_pcode": "TZ5302372", "adm3_name": "Matarumbeta", "latitude": -6.16954, "longitude": 39.20813 }, "geometry": { "type": "Point", "coordinates": [ 39.2081324, -6.1695423 ] } },
+{ "type": "Feature", "properties": { "id": "node/6778920858", "name": "Gordown", "place": "town", "adm1_pcode": "TZ53", "adm1_name": "Mjini Magharibi", "adm2_pcode": "TZ5302", "adm2_name": "Mjini", "adm3_pcode": "TZ5302122", "adm3_name": "Chumbuni", "latitude": -6.15757, "longitude": 39.20924 }, "geometry": { "type": "Point", "coordinates": [ 39.209238, -6.157574 ] } },
+{ "type": "Feature", "properties": { "id": "node/10847083886", "name": "Kelele Square", "place": "city", "adm1_pcode": "TZ53", "adm1_name": "Mjini Magharibi", "adm2_pcode": "TZ5302", "adm2_name": "Mjini", "adm3_pcode": "TZ5302372", "adm3_name": "Matarumbeta", "latitude": -6.16279, "longitude": 39.18628 }, "geometry": { "type": "Point", "coordinates": [ 39.1862836, -6.1627896 ] } },
+{ "type": "Feature", "properties": { "id": "way/975574357", "name": "MAGOMENI", "place": "settlement", "adm1_pcode": "TZ53", "adm1_name": "Mjini Magharibi", "adm2_pcode": "TZ5302", "adm2_name": "Mjini", "adm3_pcode": "TZ5302372", "adm3_name": "Matarumbeta", "latitude": -6.17723, "longitude": 39.21893 }, "geometry": { "type": "Point", "coordinates": [ 39.218927782466295, -6.177230391293998 ] } }
+]
+}

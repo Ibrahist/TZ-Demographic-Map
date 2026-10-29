@@ -24,6 +24,7 @@ export const Tooltip: React.FC<{ data: HoverTooltipData | null }> = ({ data }) =
       </div>
       <div className="mt-2 text-[10px] text-slate-400">Urban: {data.properties?.pct_urban}% | Rural: {data.properties?.pct_rural}%</div>
       <div className="mt-1 text-[10px] text-slate-400">&lt;15: {data.properties?.pct_under_15}% | 65+: {data.properties?.pct_65_plus}%</div>
+      <div className="mt-1 text-[10px] text-slate-300">Health: {data.properties?.health_facilities_count} | Schools: {data.properties?.schools_count}</div>
     </div>
   );
 };

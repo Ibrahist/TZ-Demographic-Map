@@ -1,0 +1,37 @@
+{
+  "name": "tanzania-demographic-choropleth",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "copy-data": "node scripts/sync-data.mjs"
+  },
+  "dependencies": {
+    "next": "^15.1.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "lucide-react": "^0.475.0",
+    "d3-scale": "^4.0.2",
+    "d3-scale-chromatic": "^3.1.0",
+    "d3-array": "^3.2.4",
+    "simple-statistics": "^7.8.7",
+    "html2canvas": "^1.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "@types/d3-scale": "^4.0.8",
+    "@types/d3-scale-chromatic": "^3.0.3",
+    "@types/d3-array": "^3.2.1",
+    "@types/google.maps": "^3.58.1",
+    "typescript": "^5.7.3",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.5.1",
+    "autoprefixer": "^10.4.20"
+  }
+}
+

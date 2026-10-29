@@ -13,6 +13,11 @@ export const Tooltip: React.FC<{ data: HoverTooltipData | null }> = ({ data }) =
         <span>{data.name}</span>
       </div>
       <div className="text-[10px] uppercase text-emerald-400 font-semibold">{data.level} ({data.pcode})</div>
+      <div className="mt-2 bg-emerald-950/60 border border-emerald-500/30 rounded-lg p-2">
+        <div className="text-[10px] text-emerald-300 font-semibold">{data.indicatorLabel}</div>
+        <div className="text-base font-bold text-white font-mono">{data.formattedValue}</div>
+        {data.rank && <div className="text-[10px] text-amber-400">Rank #{data.rank} of {data.totalUnits}</div>}
+      </div>
     </div>
   );
 };

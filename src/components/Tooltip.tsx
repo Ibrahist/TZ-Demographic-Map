@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useLayoutEffect, useState, useRef } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { HoverTooltipData } from '@/types';
 import { 
   Trophy, 
@@ -26,7 +26,7 @@ export const Tooltip: React.FC<TooltipProps> = ({ data }) => {
   const tooltipRef = useRef<HTMLDivElement>(null);
   const [coords, setCoords] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     if (!data) return;
 
     const width = 340;

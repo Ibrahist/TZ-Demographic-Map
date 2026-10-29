@@ -18,6 +18,10 @@ export const Tooltip: React.FC<{ data: HoverTooltipData | null }> = ({ data }) =
         <div className="text-base font-bold text-white font-mono">{data.formattedValue}</div>
         {data.rank && <div className="text-[10px] text-amber-400">Rank #{data.rank} of {data.totalUnits}</div>}
       </div>
+      <div className="mt-2 grid grid-cols-2 gap-1.5 text-[11px]">
+        <div className="bg-slate-800/80 p-1.5 rounded">Pop: <span className="font-bold">{data.properties?.total_population?.toLocaleString() || 'N/A'}</span></div>
+        <div className="bg-slate-800/80 p-1.5 rounded">Density: <span className="font-bold">{data.properties?.population_density || 'N/A'} /km²</span></div>
+      </div>
     </div>
   );
 };

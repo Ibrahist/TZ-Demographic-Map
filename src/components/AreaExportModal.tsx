@@ -391,7 +391,7 @@ export const AreaExportModal: React.FC<AreaExportModalProps> = ({
                     .GEOJSON
                   </span>
                 </div>
-                <div className="font-bold text-xs text-white">Export as GeoJSON</div>
+                <div className="font-bold text-xs text-white">Export GeoJSON Data</div>
                 <div className="text-[10px] text-slate-400 mt-1">
                   Boundary polygon/coordinates & full properties for GIS tools
                 </div>

@@ -433,6 +433,17 @@ export default function Home() {
           <Breadcrumbs
             breadcrumbs={breadcrumbs}
             onNavigate={handleNavigateBreadcrumb}
+            onExportArea={(item) => {
+              let found: any = null;
+              if (item.level === 'region' && regionsData) {
+                found = regionsData.features?.find((f: any) => f.properties.pcode === item.pcode || f.properties.name === item.name);
+              } else if (item.level === 'district' && districtsData) {
+                found = districtsData.features?.find((f: any) => f.properties.pcode === item.pcode || f.properties.name === item.name);
+              } else if (item.level === 'ward' && currentGeoJson) {
+                found = currentGeoJson.features?.find((f: any) => f.properties.pcode === item.pcode || f.properties.name === item.name);
+              }
+              handleOpenAreaExport(found ? found.properties : { name: item.name, pcode: item.pcode || '', level: item.level as AdminLevel });
+            }}
           />
           <div className="md:hidden">
             <SearchBar onSelectUnit={handleSelectSearchUnit} units={searchUnits} />

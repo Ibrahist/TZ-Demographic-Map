@@ -7,9 +7,10 @@ import { BreadcrumbItem } from '@/types';
 interface BreadcrumbsProps {
   breadcrumbs: BreadcrumbItem[];
   onNavigate: (index: number) => void;
+  onExportArea?: (item: BreadcrumbItem) => void;
 }
 
-export const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ breadcrumbs, onNavigate }) => {
+export const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ breadcrumbs, onNavigate, onExportArea }) => {
   return (
     <nav className="flex items-center space-x-1.5 text-xs text-slate-300 bg-slate-900 px-3.5 py-2 rounded-lg border border-slate-700 shadow-md">
       {breadcrumbs.map((item, idx) => {

@@ -40,7 +40,7 @@ export const ApiKeyModal: React.FC<ApiKeyModalProps> = ({
             onClick={onClose}
             className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 transition"
           >
-            <X className="w-5 h-5" />
+            <X className="w-4 h-4" />
           </button>
         </div>
 

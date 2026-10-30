@@ -106,7 +106,7 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({
                     className={`py-1.5 px-2 rounded-md font-medium text-center transition ${
                       isActive
                         ? 'bg-emerald-600 text-white shadow-sm'
-                        : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
+                        : 'text-slate-300 bg-slate-900 border border-slate-800 hover:text-white hover:bg-slate-800 hover:border-slate-700'
                     }`}
                   >
                     {lvl.label}

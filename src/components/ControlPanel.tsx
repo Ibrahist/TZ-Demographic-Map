@@ -174,13 +174,13 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({
               <label className="text-[10px] uppercase font-semibold tracking-wider text-slate-400 block mb-1">
                 Classification Method
               </label>
-              <div className="grid grid-cols-3 gap-1 p-1 bg-slate-950/80 rounded-lg border border-slate-800 text-[11px]">
+              <div className="grid grid-cols-3 gap-1 p-1 bg-slate-950 rounded-lg border border-slate-800 text-[11px]">
                 <button
                   onClick={() => onChangeScaleMethod('natural_breaks')}
                   className={`py-1 rounded font-medium transition ${
                     scaleMethod === 'natural_breaks'
-                      ? 'bg-emerald-600 text-white'
-                      : 'text-slate-400 hover:text-slate-200'
+                      ? 'bg-emerald-600 text-white shadow-sm'
+                      : 'text-slate-300 bg-slate-900 border border-slate-800 hover:text-white hover:bg-slate-800 hover:border-slate-700'
                   }`}
                   title="Fisher-Jenks Natural Breaks algorithm"
                 >
@@ -190,8 +190,8 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({
                   onClick={() => onChangeScaleMethod('quantile')}
                   className={`py-1 rounded font-medium transition ${
                     scaleMethod === 'quantile'
-                      ? 'bg-emerald-600 text-white'
-                      : 'text-slate-400 hover:text-slate-200'
+                      ? 'bg-emerald-600 text-white shadow-sm'
+                      : 'text-slate-300 bg-slate-900 border border-slate-800 hover:text-white hover:bg-slate-800 hover:border-slate-700'
                   }`}
                   title="Equal frequency quantiles"
                 >
@@ -201,8 +201,8 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({
                   onClick={() => onChangeScaleMethod('equal_interval')}
                   className={`py-1 rounded font-medium transition ${
                     scaleMethod === 'equal_interval'
-                      ? 'bg-emerald-600 text-white'
-                      : 'text-slate-400 hover:text-slate-200'
+                      ? 'bg-emerald-600 text-white shadow-sm'
+                      : 'text-slate-300 bg-slate-900 border border-slate-800 hover:text-white hover:bg-slate-800 hover:border-slate-700'
                   }`}
                   title="Equal ranges between min and max"
                 >

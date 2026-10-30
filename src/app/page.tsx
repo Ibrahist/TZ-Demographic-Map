@@ -483,6 +483,18 @@ export default function Home() {
         <Tooltip data={hoverTooltip} />
       </div>
 
+      {/* Area Export Modal (CSV, PDF, GeoJSON) */}
+      <AreaExportModal
+        isOpen={isAreaExportModalOpen}
+        onClose={() => setIsAreaExportModalOpen(false)}
+        initialArea={areaForExport}
+        currentLevel={currentLevel}
+        regionsData={regionsData}
+        districtsData={districtsData}
+        currentGeoJson={currentGeoJson}
+        villagePoints={villagePoints}
+      />
+
       {/* API Key Modal */}
       <ApiKeyModal
         isOpen={isApiKeyModalOpen}

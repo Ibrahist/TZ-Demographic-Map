@@ -24,7 +24,7 @@ export const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ breadcrumbs, onNavigat
               className={`flex items-center space-x-1 px-1.5 py-0.5 rounded transition ${
                 isLast
                   ? 'font-semibold text-emerald-400 bg-emerald-950/40 border border-emerald-800/40'
-                  : 'text-slate-300 hover:text-white hover:bg-slate-800'
+                  : 'text-slate-300 hover:text-white bg-slate-800 hover:bg-slate-700 border border-slate-700'
               }`}
             >
               {isHome ? (

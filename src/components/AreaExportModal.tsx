@@ -213,7 +213,7 @@ export const AreaExportModal: React.FC<AreaExportModalProps> = ({
           {/* Area Selector / Search */}
           <div>
             <label className="block text-[10px] font-semibold uppercase tracking-wider text-slate-400 mb-1.5">
-              2. Select {selectedLevel.toUpperCase()}
+              2. Choose Specific {selectedLevel.toUpperCase()}
             </label>
             <div className="relative mb-2">
               <Search className="w-3.5 h-3.5 absolute left-3 top-2.5 text-slate-500" />

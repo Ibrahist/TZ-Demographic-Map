@@ -1,5 +1,12 @@
 import type { Metadata } from 'next';
+import { Mulish } from 'next/font/google';
 import './globals.css';
+
+const mulish = Mulish({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-mulish',
+});
 
 export const metadata: Metadata = {
   title: 'Tanzania Demographic & Health Choropleth Map',

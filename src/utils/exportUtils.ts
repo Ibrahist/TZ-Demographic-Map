@@ -198,3 +198,24 @@ export async function exportAreaToPDF(area: FeatureProperties | Record<string, a
   const pageHeight = 297;
   const margin = 14;
   const contentWidth = pageWidth - margin * 2;
+
+  doc.setFillColor(16, 185, 129);
+  doc.rect(0, 0, pageWidth, 4, 'F');
+
+  doc.setFillColor(15, 23, 42);
+  doc.rect(0, 4, pageWidth, 24, 'F');
+
+  doc.setTextColor(255, 255, 255);
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(13);
+  doc.text('TANZANIA DEMOGRAPHIC & HEALTH PROFILE', margin, 15);
+
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(8.5);
+  doc.setTextColor(148, 163, 184);
+  doc.text('Subnational 2022 Census (PHC) & Demographic Health Survey (DHS) Data', margin, 22);
+
+  const dateStr = new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+  doc.text(`Generated: ${dateStr}`, pageWidth - margin, 22, { align: 'right' });
+
+  let y = 35;

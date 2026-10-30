@@ -19,6 +19,7 @@ import { Legend } from '@/components/Legend';
 import { Tooltip } from '@/components/Tooltip';
 import { ExportButtons } from '@/components/ExportButtons';
 import { ApiKeyModal } from '@/components/ApiKeyModal';
+import { AreaExportModal } from '@/components/AreaExportModal';
 import { MapPin, Key, Layers } from 'lucide-react';
 
 const ChoroplethMap = dynamic(
@@ -63,6 +64,8 @@ export default function Home() {
   const [hoverTooltip, setHoverTooltip] = useState<HoverTooltipData | null>(null);
   const [searchUnits, setSearchUnits] = useState<SearchResultItem[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [isAreaExportModalOpen, setIsAreaExportModalOpen] = useState<boolean>(false);
+  const [areaForExport, setAreaForExport] = useState<FeatureProperties | null>(null);
 
   // Initialize API Key from env or session
   useEffect(() => {

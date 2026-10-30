@@ -341,7 +341,13 @@ export const ChoroplethMap: React.FC<ChoroplethMapProps> = ({
         marker.addListener('click', () => {
           map.setZoom(13);
           map.panTo({ lat, lng });
-          onSelectFeature(f.properties);
+          onSelectFeature({
+            ...f.properties,
+            level: 'village',
+            latitude: lat,
+            longitude: lng,
+            name: f.properties.name || name
+          });
         });
 
         marker.addListener('mouseover', (e: google.maps.MapMouseEvent) => {

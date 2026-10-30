@@ -20,7 +20,7 @@ import { Tooltip } from '@/components/Tooltip';
 import { ExportButtons } from '@/components/ExportButtons';
 import { ApiKeyModal } from '@/components/ApiKeyModal';
 import { AreaExportModal } from '@/components/AreaExportModal';
-import { MapPin, Key, Layers } from 'lucide-react';
+import { MapPin, Key, Layers, Download, X } from 'lucide-react';
 
 const ChoroplethMap = dynamic(
   () => import('@/components/ChoroplethMap').then((mod) => mod.ChoroplethMap),
@@ -343,6 +343,23 @@ export default function Home() {
     natural_breaks: 'Natural Breaks (Fisher-Jenks)',
     quantile: 'Quantiles',
     equal_interval: 'Equal Interval'
+  };
+
+  const handleOpenAreaExport = (area?: FeatureProperties | null) => {
+    if (area) {
+      setAreaForExport(area);
+    } else if (!areaForExport) {
+      if (activeDistrict && districtsData) {
+        const match = districtsData.features?.find((f: any) => f.properties.pcode === activeDistrict.pcode);
+        setAreaForExport(match ? match.properties : { name: activeDistrict.name, pcode: activeDistrict.pcode, level: 'district' });
+      } else if (activeRegion && regionsData) {
+        const match = regionsData.features?.find((f: any) => f.properties.pcode === activeRegion.pcode);
+        setAreaForExport(match ? match.properties : { name: activeRegion.name, pcode: activeRegion.pcode, level: 'region' });
+      } else if (currentGeoJson?.features?.[0]) {
+        setAreaForExport(currentGeoJson.features[0].properties);
+      }
+    }
+    setIsAreaExportModalOpen(true);
   };
 
   return (

@@ -378,7 +378,7 @@ export const ChoroplethMap: React.FC<ChoroplethMapProps> = ({
 
       {/* API Key Missing / Required Banner */}
       {!apiKey && (
-        <div className="absolute inset-0 z-40 flex items-center justify-center bg-slate-950/80 backdrop-blur-md p-6">
+        <div className="absolute inset-0 z-40 flex items-center justify-center bg-black/80 p-6">
           <div className="bg-slate-900 border border-slate-700 rounded-2xl max-w-md w-full p-6 text-center shadow-2xl text-slate-100">
             <div className="w-12 h-12 rounded-xl bg-emerald-950/80 border border-emerald-800 text-emerald-400 mx-auto flex items-center justify-center mb-4 shadow-lg shadow-emerald-950/50">
               <Key className="w-6 h-6" />

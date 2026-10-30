@@ -1,3 +1,5 @@
+import { FeatureProperties } from '@/types';
+
 export function exportToCSV(data: any[], filename: string) {
   if (!data || data.length === 0) return;
   if (typeof window === 'undefined') return;
@@ -63,4 +65,12 @@ export async function exportMapToPNG(elementId: string, filename: string) {
   } catch (err) {
     console.error('Failed to export map as PNG:', err);
   }
+}
+
+
+export function sanitizeFilename(name: string): string {
+  return (name || 'area')
+    .toLowerCase()
+    .replace(/[^a-z0-9_-]/g, '_')
+    .replace(/_+/g, '_');
 }

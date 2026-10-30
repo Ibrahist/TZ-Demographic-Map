@@ -415,7 +415,7 @@ export const AreaExportModal: React.FC<AreaExportModalProps> = ({
                     .PDF
                   </span>
                 </div>
-                <div className="font-bold text-xs text-white">Export as PDF</div>
+                <div className="font-bold text-xs text-white">Export PDF Report</div>
                 <div className="text-[10px] text-slate-400 mt-1">
                   Print-ready demographic summary profile & health report
                 </div>

@@ -479,6 +479,47 @@ export default function Home() {
           )}
         </div>
 
+        {/* Floating Bottom-Left Selected Area Quick-Export Card */}
+        {areaForExport && (
+          <div className="absolute bottom-6 left-4 z-20 pointer-events-auto bg-slate-900 border border-slate-700 rounded-xl p-2.5 shadow-xl text-xs text-slate-100 flex items-center space-x-3 animate-in fade-in slide-in-from-bottom-2 duration-150">
+            <div className="flex items-center space-x-1.5 pl-1">
+              <MapPin className="w-4 h-4 text-emerald-400 shrink-0" />
+              <div>
+                <div className="font-bold flex items-center space-x-1.5">
+                  <span className="truncate max-w-[140px]">{areaForExport.name}</span>
+                  <span className="text-[9px] uppercase font-mono px-1.5 py-0.2 rounded bg-slate-800 text-slate-300 border border-slate-700">
+                    {areaForExport.level}
+                  </span>
+                </div>
+                {areaForExport.total_population && (
+                  <div className="text-[10px] text-slate-400">
+                    Pop: {Number(areaForExport.total_population).toLocaleString()}
+                  </div>
+                )}
+              </div>
+            </div>
+
+            <div className="flex items-center space-x-1.5 border-l border-slate-800 pl-2.5">
+              <button
+                onClick={() => setIsAreaExportModalOpen(true)}
+                className="px-2.5 py-1 rounded-md bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white font-medium text-xs shadow-sm transition flex items-center space-x-1"
+                title="Export this area as CSV, PDF, or GeoJSON"
+              >
+                <Download className="w-3 h-3" />
+                <span>Export Area</span>
+              </button>
+
+              <button
+                onClick={() => setAreaForExport(null)}
+                className="p-1 rounded-md hover:bg-slate-800 text-slate-400 hover:text-white transition"
+                title="Dismiss"
+              >
+                <X className="w-3.5 h-3.5" />
+              </button>
+            </div>
+          </div>
+        )}
+
         {/* Floating Bottom-Right Legend */}
         {selectedIndicator && (
           <div className="absolute bottom-6 right-4 z-20 pointer-events-auto">

@@ -380,7 +380,7 @@ export const ChoroplethMap: React.FC<ChoroplethMapProps> = ({
       {!apiKey && (
         <div className="absolute inset-0 z-40 flex items-center justify-center bg-black/80 p-6">
           <div className="bg-slate-900 border border-slate-700 rounded-2xl max-w-md w-full p-6 text-center shadow-2xl text-slate-100">
-            <div className="w-12 h-12 rounded-xl bg-emerald-950/80 border border-emerald-800 text-emerald-400 mx-auto flex items-center justify-center mb-4 shadow-lg shadow-emerald-950/50">
+            <div className="w-12 h-12 rounded-xl bg-slate-800 border border-slate-700 text-emerald-400 mx-auto flex items-center justify-center mb-4 shadow-md">
               <Key className="w-6 h-6" />
             </div>
             <h3 className="text-lg font-bold">Google Maps API Key Required</h3>
@@ -391,7 +391,7 @@ export const ChoroplethMap: React.FC<ChoroplethMapProps> = ({
             <div className="mt-5 flex justify-center">
               <button
                 onClick={onOpenApiKeyModal}
-                className="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold shadow-lg shadow-emerald-950 transition flex items-center space-x-2"
+                className="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white text-xs font-semibold shadow transition-all flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-emerald-500"
               >
                 <Key className="w-4 h-4" />
                 <span>Enter Google Maps API Key</span>

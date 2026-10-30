@@ -241,11 +241,6 @@ export const ChoroplethMap: React.FC<ChoroplethMapProps> = ({
         featureProps[prop] = val;
       });
 
-      const allProps: Record<string, any> = {};
-      event.feature.forEachProperty((val, prop) => {
-        allProps[prop] = val;
-      });
-
       const pcode = (event.feature.getProperty('pcode') as string) || '';
       const name = (event.feature.getProperty('name') as string) || '';
       const level = (event.feature.getProperty('level') as AdminLevel) || currentLevel;
@@ -295,6 +290,11 @@ export const ChoroplethMap: React.FC<ChoroplethMapProps> = ({
       map.fitBounds(bounds);
 
       // Collect properties and fire drill-down
+      const allProps: Record<string, any> = {};
+      event.feature.forEachProperty((val, prop) => {
+        allProps[prop] = val;
+      });
+
       const pcode = (event.feature.getProperty('pcode') as string) || '';
       const name = (event.feature.getProperty('name') as string) || '';
       const level = (event.feature.getProperty('level') as AdminLevel) || currentLevel;

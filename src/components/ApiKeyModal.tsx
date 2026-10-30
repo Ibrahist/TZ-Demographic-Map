@@ -38,7 +38,7 @@ export const ApiKeyModal: React.FC<ApiKeyModalProps> = ({
           </div>
           <button
             onClick={onClose}
-            className="p-1 rounded-lg hover:bg-slate-800 text-slate-400 hover:text-slate-200 transition"
+            className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 transition"
           >
             <X className="w-5 h-5" />
           </button>

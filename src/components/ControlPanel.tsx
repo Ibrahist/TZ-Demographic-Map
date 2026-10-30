@@ -62,7 +62,7 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({
   ];
 
   return (
-    <div className="bg-slate-900/95 backdrop-blur-md border border-slate-700/80 rounded-xl shadow-2xl text-slate-100 max-w-sm w-full overflow-hidden transition-all duration-200">
+    <div className="bg-slate-900 border border-slate-700 rounded-xl shadow-2xl text-slate-100 max-w-sm w-full overflow-hidden transition-all duration-200">
       {/* Header bar */}
       <div className="flex items-center justify-between px-4 py-3 bg-slate-950/60 border-b border-slate-800">
         <div className="flex items-center space-x-2">

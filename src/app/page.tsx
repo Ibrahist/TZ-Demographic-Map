@@ -279,6 +279,19 @@ export default function Home() {
 
   // Search Selection Handler
   const handleSelectSearchUnit = (item: SearchResultItem) => {
+    let foundProps: any = null;
+    if (item.level === 'region' && regionsData) {
+      foundProps = regionsData.features?.find((f: any) => f.properties.pcode === item.pcode)?.properties;
+    } else if (item.level === 'district' && districtsData) {
+      foundProps = districtsData.features?.find((f: any) => f.properties.pcode === item.pcode)?.properties;
+    }
+    setAreaForExport(foundProps || {
+      name: item.name,
+      pcode: item.pcode,
+      level: item.level,
+      parent_region_name: item.parentRegionName,
+      parent_region_pcode: item.parentRegionPcode
+    });
     if (item.level === 'region') {
       setActiveRegion({ pcode: item.pcode, name: item.name });
       setActiveDistrict(null);

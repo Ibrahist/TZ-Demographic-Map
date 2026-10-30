@@ -364,7 +364,7 @@ export default function Home() {
           <div>
             <div className="font-bold text-sm tracking-tight flex items-center space-x-1.5">
               <span>Tanzania Demographic Map</span>
-              <span className="text-[10px] uppercase font-mono px-1.5 py-0.2 rounded bg-emerald-950 text-emerald-400 border border-emerald-800">
+              <span className="text-[10px] uppercase font-semibold px-2 py-0.5 rounded bg-emerald-600 text-white shadow-sm">
                 2022 Census
               </span>
             </div>

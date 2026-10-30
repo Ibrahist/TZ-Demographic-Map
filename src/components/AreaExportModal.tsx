@@ -350,7 +350,7 @@ export const AreaExportModal: React.FC<AreaExportModalProps> = ({
           {/* 3 Dedicated Export Buttons */}
           <div>
             <label className="block text-[10px] font-semibold uppercase tracking-wider text-slate-400 mb-1.5">
-              3. Download Formats
+              3. Select Download Format
             </label>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               {/* CSV Export */}

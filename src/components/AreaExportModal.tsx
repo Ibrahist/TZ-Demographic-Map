@@ -187,7 +187,7 @@ export const AreaExportModal: React.FC<AreaExportModalProps> = ({
           {/* Level Switcher */}
           <div>
             <label className="block text-[10px] font-semibold uppercase tracking-wider text-slate-400 mb-1.5">
-              1. Administrative Level Selection
+              1. Choose Administrative Level
             </label>
             <div className="grid grid-cols-4 gap-2 p-1 bg-slate-950 rounded-lg border border-slate-800 text-xs font-medium">
               {(['region', 'district', 'ward', 'village'] as AdminLevel[]).map((lvl) => (
@@ -213,7 +213,7 @@ export const AreaExportModal: React.FC<AreaExportModalProps> = ({
           {/* Area Selector / Search */}
           <div>
             <label className="block text-[10px] font-semibold uppercase tracking-wider text-slate-400 mb-1.5">
-              2. Choose Specific {selectedLevel.toUpperCase()}
+              2. Select {selectedLevel.toUpperCase()}
             </label>
             <div className="relative mb-2">
               <Search className="w-3.5 h-3.5 absolute left-3 top-2.5 text-slate-500" />
@@ -276,7 +276,7 @@ export const AreaExportModal: React.FC<AreaExportModalProps> = ({
                   </h3>
                   {(currentProps.parent_region_name || currentProps.parent_district_name || currentProps.adm1_name) && (
                     <div className="text-xs text-slate-400 mt-0.5">
-                      Administrative Hierarchy:{' '}
+                      Hierarchy:{' '}
                       {[
                         currentProps.adm3_name,
                         currentProps.parent_district_name || currentProps.adm2_name,
@@ -350,7 +350,7 @@ export const AreaExportModal: React.FC<AreaExportModalProps> = ({
           {/* 3 Dedicated Export Buttons */}
           <div>
             <label className="block text-[10px] font-semibold uppercase tracking-wider text-slate-400 mb-1.5">
-              3. Select Download Format
+              3. Download Formats
             </label>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               {/* CSV Export */}
@@ -391,7 +391,7 @@ export const AreaExportModal: React.FC<AreaExportModalProps> = ({
                     .GEOJSON
                   </span>
                 </div>
-                <div className="font-bold text-xs text-white">Export GeoJSON Data</div>
+                <div className="font-bold text-xs text-white">Export as GeoJSON</div>
                 <div className="text-[10px] text-slate-400 mt-1">
                   Boundary polygon/coordinates & full properties for GIS tools
                 </div>
@@ -415,7 +415,7 @@ export const AreaExportModal: React.FC<AreaExportModalProps> = ({
                     .PDF
                   </span>
                 </div>
-                <div className="font-bold text-xs text-white">Export PDF Report</div>
+                <div className="font-bold text-xs text-white">Export as PDF</div>
                 <div className="text-[10px] text-slate-400 mt-1">
                   Print-ready demographic summary profile & health report
                 </div>

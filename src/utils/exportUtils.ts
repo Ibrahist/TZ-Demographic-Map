@@ -352,3 +352,56 @@ export async function exportAreaToPDF(area: FeatureProperties | Record<string, a
     renderSectionHeader('DEMOGRAPHIC & GEOGRAPHIC PROFILE');
     renderDataGrid(demographicItems);
   }
+
+  const infraItems: Array<{ label: string; value: string; unit?: string }> = [];
+  if (area.health_facilities_count !== undefined && area.health_facilities_count !== null) {
+    infraItems.push({ label: 'Total Health Facilities', value: Number(area.health_facilities_count).toLocaleString(), unit: 'facilities' });
+  }
+  if (area.health_facility_density !== undefined && area.health_facility_density !== null) {
+    infraItems.push({ label: 'Health Facility Density', value: Number(area.health_facility_density).toFixed(2), unit: 'per 10k pop' });
+  }
+  if (area.schools_count !== undefined && area.schools_count !== null) {
+    infraItems.push({ label: 'Total Educational Facilities', value: Number(area.schools_count).toLocaleString(), unit: 'schools' });
+  }
+  if (area.school_density_children !== undefined && area.school_density_children !== null) {
+    infraItems.push({ label: 'School Density', value: Number(area.school_density_children).toFixed(2), unit: 'per 1k children' });
+  }
+
+  if (infraItems.length > 0) {
+    renderSectionHeader('INFRASTRUCTURE & PUBLIC SERVICES', [14, 165, 233]);
+    renderDataGrid(infraItems);
+  }
+
+  const dhsItems: Array<{ label: string; value: string; unit?: string }> = [];
+  if (area.electricity_access_pct !== undefined && area.electricity_access_pct !== null) {
+    dhsItems.push({ label: 'Access to Electricity', value: `${area.electricity_access_pct}%` });
+  }
+  if (area.improved_water_pct !== undefined && area.improved_water_pct !== null) {
+    dhsItems.push({ label: 'Improved Water Access', value: `${area.improved_water_pct}%` });
+  }
+  if (area.improved_sanitation_pct !== undefined && area.improved_sanitation_pct !== null) {
+    dhsItems.push({ label: 'Improved Sanitation', value: `${area.improved_sanitation_pct}%` });
+  }
+  if (area.fertility_rate !== undefined && area.fertility_rate !== null) {
+    dhsItems.push({ label: 'Total Fertility Rate (TFR)', value: `${area.fertility_rate}`, unit: 'births/woman' });
+  }
+  if (area.stunting_rate !== undefined && area.stunting_rate !== null) {
+    dhsItems.push({ label: 'Under-5 Stunting Rate', value: `${area.stunting_rate}%` });
+  }
+  if (area.under_5_mortality !== undefined && area.under_5_mortality !== null) {
+    dhsItems.push({ label: 'Under-5 Mortality Rate', value: `${area.under_5_mortality}`, unit: 'deaths / 1,000' });
+  }
+  if (area.facility_births_pct !== undefined && area.facility_births_pct !== null) {
+    dhsItems.push({ label: 'Institutional Deliveries', value: `${area.facility_births_pct}%` });
+  }
+  if (area.literacy_rate !== undefined && area.literacy_rate !== null) {
+    dhsItems.push({ label: 'Adult Literacy Rate', value: `${area.literacy_rate}%` });
+  }
+  if (area.agriculture_share_pct !== undefined && area.agriculture_share_pct !== null) {
+    dhsItems.push({ label: 'Agricultural Labor Share', value: `${area.agriculture_share_pct}%` });
+  }
+
+  if (dhsItems.length > 0) {
+    renderSectionHeader('HEALTH & LIVING STANDARDS (DHS 2022)', [168, 85, 247]);
+    renderDataGrid(dhsItems);
+  }

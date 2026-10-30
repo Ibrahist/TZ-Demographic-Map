@@ -96,7 +96,7 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({
             <label className="text-[10px] uppercase font-semibold tracking-wider text-slate-400">
               Administrative Level
             </label>
-            <div className="grid grid-cols-4 gap-1.5 p-1 bg-slate-950/80 rounded-lg border border-slate-800">
+            <div className="grid grid-cols-4 gap-1.5 p-1 bg-slate-950 rounded-lg border border-slate-800">
               {levels.map((lvl) => {
                 const isActive = currentLevel === lvl.id;
                 return (

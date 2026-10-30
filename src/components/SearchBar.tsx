@@ -70,7 +70,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({ onSelectUnit, units }) => 
           }}
           onFocus={() => setIsOpen(true)}
           placeholder="Search region, district, ward..."
-          className="w-full pl-9 pr-8 py-2 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded-lg text-xs text-slate-100 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 shadow-md transition"
+          className="w-full pl-9 pr-8 py-2 bg-slate-950/40 backdrop-blur-md border border-white/10 rounded-lg text-xs text-slate-100 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 focus:border-emerald-500/50 shadow-inner transition"
         />
         {query && (
           <button
@@ -78,9 +78,9 @@ export const SearchBar: React.FC<SearchBarProps> = ({ onSelectUnit, units }) => 
               setQuery('');
               setIsOpen(false);
             }}
-            className="absolute right-2.5 p-0.5 rounded hover:bg-slate-800 text-slate-400 hover:text-slate-200 transition"
+            className="absolute right-2.5 p-1 rounded-md bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white transition backdrop-blur-sm"
           >
-            <X className="w-3.5 h-3.5" />
+            <X className="w-3 h-3" />
           </button>
         )}
       </div>

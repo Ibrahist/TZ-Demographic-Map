@@ -4,6 +4,10 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Tanzania Demographic & Health Choropleth Map',
   description: 'Interactive subnational choropleth map and drill-down visualization for Tanzania 2022 Census, DHS, and facilities data.',
+  icons: {
+    icon: [{ url: '/tanzania.png', type: 'image/png' }],
+    shortcut: '/tanzania.png',
+  },
 };
 
 export default function RootLayout({

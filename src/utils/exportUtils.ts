@@ -74,3 +74,14 @@ export function sanitizeFilename(name: string): string {
     .replace(/[^a-z0-9_-]/g, '_')
     .replace(/_+/g, '_');
 }
+
+export function exportAreaToCSV(area: FeatureProperties | Record<string, any>, filename: string) {
+  if (!area || typeof window === 'undefined') return;
+
+  const rows: string[] = [];
+  rows.push('"--- TANZANIA DEMOGRAPHIC AREA REPORT ---",""');
+  rows.push('"Export Date"', `"${new Date().toLocaleString()}"`);
+  rows.push('"Source"', '"National Bureau of Statistics (NBS) 2022 Census & Tanzania DHS"');
+  rows.push('""', '""');
+  rows.push('"--- SUMMARY ATTRIBUTES ---"', '""');
+  rows.push('"Metric / Property"', '"Value"');

@@ -354,7 +354,7 @@ export default function Home() {
       {/* Top Navigation Bar */}
       <header className="z-30 h-14 bg-slate-900/75 backdrop-blur-xl backdrop-saturate-150 border-b border-white/[0.08] px-4 flex items-center justify-between shadow-[0_4px_24px_rgba(0,0,0,0.3)]">
         <div className="flex items-center space-x-3">
-          <div className="w-9 h-9 rounded-lg bg-emerald-950/40 border border-emerald-500/30 flex items-center justify-center overflow-hidden shadow-inner flex-shrink-0">
+          <div className="w-9 h-9 rounded-lg bg-white/[0.06] border border-white/[0.12] backdrop-blur-md flex items-center justify-center overflow-hidden shadow-inner flex-shrink-0">
             <img
               src="/tanzania.png"
               alt="Tanzania Logo"
@@ -386,7 +386,7 @@ export default function Home() {
           <button
             onClick={() => setIsApiKeyModalOpen(true)}
             title="Configure Google Maps API Key"
-            className="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 active:bg-slate-900 text-slate-200 border border-slate-600 hover:border-slate-500 shadow-sm transition-all focus:outline-none focus:ring-2 focus:ring-emerald-500/50"
+            className="p-2 rounded-lg bg-white/[0.06] hover:bg-white/[0.12] active:bg-white/[0.18] text-slate-200 border border-white/[0.12] backdrop-blur-md shadow-sm transition-all focus:outline-none focus:ring-2 focus:ring-emerald-500/50"
           >
             <Key className="w-4 h-4 text-emerald-400" />
           </button>

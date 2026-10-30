@@ -160,3 +160,26 @@ export function exportAreaToGeoJSON(area: FeatureProperties | Record<string, any
   delete properties.geometry;
 
   let validGeometry = geometry || area.geometry;
+  if (!validGeometry && area.latitude !== undefined && area.longitude !== undefined) {
+    validGeometry = {
+      type: 'Point',
+      coordinates: [Number(area.longitude), Number(area.latitude)]
+    };
+  }
+
+  const geoJson = {
+    type: 'Feature',
+    properties,
+    geometry: validGeometry || null
+  };
+
+  const blob = new Blob([JSON.stringify(geoJson, null, 2)], { type: 'application/geo+json;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.setAttribute('href', url);
+  link.setAttribute('download', `${filename}.geojson`);
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+}

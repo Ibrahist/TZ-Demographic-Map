@@ -152,3 +152,11 @@ export function exportAreaToCSV(area: FeatureProperties | Record<string, any>, f
   document.body.removeChild(link);
   URL.revokeObjectURL(url);
 }
+
+export function exportAreaToGeoJSON(area: FeatureProperties | Record<string, any>, geometry: any, filename: string) {
+  if (!area || typeof window === 'undefined') return;
+
+  const properties: Record<string, any> = { ...area };
+  delete properties.geometry;
+
+  let validGeometry = geometry || area.geometry;

@@ -324,20 +324,7 @@ export default function Home() {
   // Features count
   const totalFeatures = currentGeoJson?.features?.length || 0;
 
-  // Flattened features properties for CSV export
-  const exportableData = useMemo(() => {
-    if (!currentGeoJson || !currentGeoJson.features) return [];
-    return currentGeoJson.features.map((f: any) => ({
-      name: f.properties.name,
-      pcode: f.properties.pcode,
-      level: f.properties.level,
-      parent_district: f.properties.parent_district_name || '',
-      parent_region: f.properties.parent_region_name || '',
-      total_population: f.properties.total_population,
-      area_km2: f.properties.area_km2,
-      [selectedIndicator?.id || 'value']: f.properties[selectedIndicator?.id || '']
-    }));
-  }, [currentGeoJson, selectedIndicator]);
+
 
   const methodLabels: Record<ColorScaleMethod, string> = {
     natural_breaks: 'Natural Breaks (Fisher-Jenks)',
@@ -394,12 +381,7 @@ export default function Home() {
 
         {/* Right side controls & export */}
         <div className="flex items-center space-x-2">
-          <ExportButtons
-            currentData={exportableData}
-            mapElementId="choropleth-map-canvas"
-            currentLevel={currentLevel}
-            indicatorId={selectedIndicator?.id || 'indicator'}
-          />
+          <ExportButtons onOpenAreaExport={() => handleOpenAreaExport()} />
 
           <button
             onClick={() => setIsApiKeyModalOpen(true)}

@@ -321,17 +321,6 @@ export default function Home() {
     }
   };
 
-  // Features count
-  const totalFeatures = currentGeoJson?.features?.length || 0;
-
-
-
-  const methodLabels: Record<ColorScaleMethod, string> = {
-    natural_breaks: 'Natural Breaks (Fisher-Jenks)',
-    quantile: 'Quantiles',
-    equal_interval: 'Equal Interval'
-  };
-
   const handleOpenAreaExport = (area?: FeatureProperties | null) => {
     if (area) {
       setAreaForExport(area);
@@ -347,6 +336,15 @@ export default function Home() {
       }
     }
     setIsAreaExportModalOpen(true);
+  };
+
+  // Features count
+  const totalFeatures = currentGeoJson?.features?.length || 0;
+
+  const methodLabels: Record<ColorScaleMethod, string> = {
+    natural_breaks: 'Natural Breaks (Fisher-Jenks)',
+    quantile: 'Quantiles',
+    equal_interval: 'Equal Interval'
   };
 
   return (

@@ -219,3 +219,34 @@ export async function exportAreaToPDF(area: FeatureProperties | Record<string, a
   doc.text(`Generated: ${dateStr}`, pageWidth - margin, 22, { align: 'right' });
 
   let y = 35;
+
+  doc.setFillColor(248, 250, 252);
+  doc.setDrawColor(203, 213, 225);
+  doc.roundedRect(margin, y, contentWidth, 23, 2, 2, 'FD');
+
+  doc.setTextColor(15, 23, 42);
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(15);
+  doc.text(String(area.name || 'Unnamed Area'), margin + 6, y + 8.5);
+
+  const levelText = String(area.level || 'Area').toUpperCase();
+  const badgeWidth = doc.getTextWidth(levelText) + 8;
+  doc.setFillColor(16, 185, 129);
+  doc.roundedRect(margin + 6, y + 11.5, badgeWidth, 6, 1, 1, 'F');
+  doc.setTextColor(255, 255, 255);
+  doc.setFontSize(8);
+  doc.setFont('helvetica', 'bold');
+  doc.text(levelText, margin + 10, y + 15.8);
+
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(8.5);
+  doc.setTextColor(71, 85, 105);
+  const hierarchyParts: string[] = [];
+  if (area.pcode) hierarchyParts.push(`Code: ${area.pcode}`);
+  if (area.parent_district_name || area.adm2_name) hierarchyParts.push(`District: ${area.parent_district_name || area.adm2_name}`);
+  if (area.parent_region_name || area.adm1_name) hierarchyParts.push(`Region: ${area.parent_region_name || area.adm1_name}`);
+  if (area.adm3_name) hierarchyParts.push(`Ward: ${area.adm3_name}`);
+  
+  doc.text(hierarchyParts.join('  •  '), margin + 10 + badgeWidth, y + 15.8);
+
+  y += 29;

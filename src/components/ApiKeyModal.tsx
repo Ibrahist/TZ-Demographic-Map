@@ -95,7 +95,7 @@ export const ApiKeyModal: React.FC<ApiKeyModalProps> = ({
             </button>
             <button
               type="submit"
-              className="px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-medium transition shadow-lg shadow-emerald-900/40"
+              className="px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white text-xs font-semibold shadow transition-all focus:outline-none focus:ring-2 focus:ring-emerald-500"
             >
               Save & Load Map
             </button>

@@ -19,7 +19,7 @@ import { Legend } from '@/components/Legend';
 import { Tooltip } from '@/components/Tooltip';
 import { ExportButtons } from '@/components/ExportButtons';
 import { ApiKeyModal } from '@/components/ApiKeyModal';
-import { MapPin, Key, Layers, Globe2 } from 'lucide-react';
+import { MapPin, Key, Layers } from 'lucide-react';
 
 const ChoroplethMap = dynamic(
   () => import('@/components/ChoroplethMap').then((mod) => mod.ChoroplethMap),
@@ -324,8 +324,12 @@ export default function Home() {
       {/* Top Navigation Bar */}
       <header className="z-30 h-14 bg-slate-900/95 backdrop-blur-md border-b border-slate-800 px-4 flex items-center justify-between shadow-lg">
         <div className="flex items-center space-x-3">
-          <div className="w-8 h-8 rounded-lg bg-emerald-600/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
-            <Globe2 className="w-5 h-5" />
+          <div className="w-9 h-9 rounded-lg bg-emerald-950/40 border border-emerald-500/30 flex items-center justify-center overflow-hidden shadow-inner flex-shrink-0">
+            <img
+              src="/tanzania.png"
+              alt="Tanzania Logo"
+              className="w-full h-full object-contain p-0.5"
+            />
           </div>
           <div>
             <div className="font-bold text-sm tracking-tight flex items-center space-x-1.5">

@@ -82,7 +82,7 @@ export const Tooltip: React.FC<TooltipProps> = ({ data }) => {
         top: `${coords.y}px`,
       }}
     >
-      <div className="w-[330px] bg-slate-950/95 backdrop-blur-xl border border-slate-700/80 rounded-2xl p-4 shadow-2xl text-slate-100 text-xs divide-y divide-slate-800/80">
+      <div className="w-[330px] bg-slate-900 border border-slate-700 rounded-2xl p-4 shadow-2xl text-slate-100 text-xs divide-y divide-slate-800">
         
         {/* Header */}
         <div className="pb-3">

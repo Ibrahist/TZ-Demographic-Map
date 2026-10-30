@@ -276,7 +276,7 @@ export const AreaExportModal: React.FC<AreaExportModalProps> = ({
                   </h3>
                   {(currentProps.parent_region_name || currentProps.parent_district_name || currentProps.adm1_name) && (
                     <div className="text-xs text-slate-400 mt-0.5">
-                      Hierarchy:{' '}
+                      Administrative Hierarchy:{' '}
                       {[
                         currentProps.adm3_name,
                         currentProps.parent_district_name || currentProps.adm2_name,

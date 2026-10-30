@@ -213,6 +213,7 @@ export default function Home() {
 
   // Feature Click / Drill-down Handler
   const handleSelectFeature = useCallback((props: FeatureProperties) => {
+    setAreaForExport(props);
     if (currentLevel === 'region') {
       // Drill down into District level
       setActiveRegion({ pcode: props.pcode, name: props.name });

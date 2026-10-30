@@ -42,3 +42,7 @@ data/raw/health_facilities/
 data/raw/adm1/
 data/raw/adm2/
 data/raw/adm3/
+
+# prompt changelog report
+CHANGES_AND_PROMPTS_REPORT.pdf
+

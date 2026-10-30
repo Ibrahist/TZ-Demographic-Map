@@ -36,14 +36,7 @@ export const ExportButtons: React.FC<ExportButtonsProps> = ({
 
   return (
     <div className="flex items-center space-x-2">
-      <button
-        onClick={handleExportCSV}
-        title="Download current view data as CSV"
-        className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 active:bg-slate-900 text-slate-100 border border-slate-600 hover:border-slate-500 text-xs font-medium shadow-sm transition-all focus:outline-none focus:ring-2 focus:ring-emerald-500/50"
-      >
-        <FileSpreadsheet className="w-3.5 h-3.5 text-emerald-400" />
-        <span className="hidden sm:inline">Export CSV</span>
-      </button>
+
 
       <button
         onClick={handleExportPNG}

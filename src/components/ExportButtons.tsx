@@ -38,17 +38,7 @@ export const ExportButtons: React.FC<ExportButtonsProps> = ({
     <div className="flex items-center space-x-2">
 
 
-      <button
-        onClick={handleExportPNG}
-        disabled={isExportingPng}
-        title="Download map image as PNG"
-        className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 active:bg-slate-900 text-slate-100 border border-slate-600 hover:border-slate-500 text-xs font-medium shadow-sm transition-all focus:outline-none focus:ring-2 focus:ring-emerald-500/50 disabled:opacity-50 disabled:pointer-events-none"
-      >
-        <ImageIcon className="w-3.5 h-3.5 text-sky-400" />
-        <span className="hidden sm:inline">
-          {isExportingPng ? 'Rendering...' : 'Export PNG'}
-        </span>
-      </button>
+
     </div>
   );
 };

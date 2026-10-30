@@ -352,7 +352,7 @@ export default function Home() {
   return (
     <main className="relative w-screen h-screen flex flex-col bg-slate-950 text-slate-100 overflow-hidden font-sans">
       {/* Top Navigation Bar */}
-      <header className="z-30 h-14 bg-slate-900/95 backdrop-blur-md border-b border-slate-800 px-4 flex items-center justify-between shadow-lg">
+      <header className="z-30 h-14 bg-slate-900/75 backdrop-blur-xl backdrop-saturate-150 border-b border-white/[0.08] px-4 flex items-center justify-between shadow-[0_4px_24px_rgba(0,0,0,0.3)]">
         <div className="flex items-center space-x-3">
           <div className="w-9 h-9 rounded-lg bg-emerald-950/40 border border-emerald-500/30 flex items-center justify-center overflow-hidden shadow-inner flex-shrink-0">
             <img

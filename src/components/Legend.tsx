@@ -16,7 +16,7 @@ export const Legend: React.FC<LegendProps> = ({ colorScale, indicator, methodLab
   const { breaks, colors, min, max } = colorScale;
 
   return (
-    <div className="bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded-xl p-3.5 shadow-xl text-xs text-slate-200 max-w-xs w-full">
+    <div className="bg-slate-900 border border-slate-700 rounded-xl p-3.5 shadow-xl text-xs text-slate-200 max-w-xs w-full">
       <div className="flex items-start justify-between mb-2">
         <div>
           <div className="font-semibold text-slate-100 leading-tight">{indicator.label}</div>

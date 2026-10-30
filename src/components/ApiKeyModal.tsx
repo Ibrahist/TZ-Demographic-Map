@@ -63,7 +63,7 @@ export const ApiKeyModal: React.FC<ApiKeyModalProps> = ({
             />
           </div>
 
-          <div className="bg-slate-800/60 rounded-lg p-3 text-xs text-slate-400 space-y-1.5 border border-slate-700/50">
+          <div className="bg-slate-950 rounded-lg p-3 text-xs text-slate-400 space-y-1.5 border border-slate-800">
             <div className="flex items-center space-x-1.5 text-slate-300 font-medium">
               <ShieldCheck className="w-4 h-4 text-emerald-400" />
               <span>How API Keys Are Handled:</span>

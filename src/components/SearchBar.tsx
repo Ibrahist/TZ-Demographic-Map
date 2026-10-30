@@ -86,12 +86,12 @@ export const SearchBar: React.FC<SearchBarProps> = ({ onSelectUnit, units }) => 
       </div>
 
       {isOpen && filtered.length > 0 && (
-        <div className="absolute z-50 left-0 right-0 mt-1.5 bg-slate-900/95 backdrop-blur-md border border-slate-700 rounded-lg shadow-xl max-h-64 overflow-y-auto divide-y divide-slate-800 text-xs">
+        <div className="absolute z-50 left-0 right-0 mt-1.5 bg-slate-900/90 backdrop-blur-xl border border-white/10 rounded-lg shadow-2xl max-h-64 overflow-y-auto divide-y divide-white/5 text-xs">
           {filtered.map((item, idx) => (
             <button
               key={`${item.level}-${item.pcode}-${idx}`}
               onClick={() => handleSelect(item)}
-              className="w-full flex items-center justify-between px-3 py-2 hover:bg-slate-800/80 text-left transition"
+              className="w-full flex items-center justify-between px-3 py-2 hover:bg-slate-800 text-left transition"
             >
               <div className="flex items-center space-x-2">
                 <MapPin className="w-3.5 h-3.5 text-slate-400 shrink-0" />

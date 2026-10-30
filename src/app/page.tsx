@@ -361,7 +361,7 @@ export default function Home() {
           <button
             onClick={() => setIsApiKeyModalOpen(true)}
             title="Configure Google Maps API Key"
-            className="p-2 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-300 border border-slate-700 transition"
+            className="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 active:bg-slate-900 text-slate-200 border border-slate-600 hover:border-slate-500 shadow-sm transition-all focus:outline-none focus:ring-2 focus:ring-emerald-500/50"
           >
             <Key className="w-4 h-4 text-emerald-400" />
           </button>

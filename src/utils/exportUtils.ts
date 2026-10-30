@@ -122,3 +122,33 @@ export function exportAreaToCSV(area: FeatureProperties | Record<string, any>, f
     { key: 'latitude', label: 'Latitude' },
     { key: 'longitude', label: 'Longitude' }
   ];
+
+  for (const field of orderedFields) {
+    const raw = area[field.key];
+    if (raw !== undefined && raw !== null && raw !== '') {
+      const valStr = field.format ? field.format(raw) : String(raw);
+      rows.push(`"${field.label}","${valStr.replace(/"/g, '""')}"`);
+    }
+  }
+
+  const handledKeys = new Set(orderedFields.map(f => f.key));
+  handledKeys.add('geometry');
+  handledKeys.add('type');
+
+  for (const [key, value] of Object.entries(area)) {
+    if (!handledKeys.has(key) && value !== null && value !== undefined && typeof value !== 'object') {
+      const formattedKey = key.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+      rows.push(`"${formattedKey}","${String(value).replace(/"/g, '""')}"`);
+    }
+  }
+
+  const blob = new Blob([rows.join('\n')], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.setAttribute('href', url);
+  link.setAttribute('download', `${filename}.csv`);
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+}

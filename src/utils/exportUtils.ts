@@ -85,3 +85,24 @@ export function exportAreaToCSV(area: FeatureProperties | Record<string, any>, f
   rows.push('""', '""');
   rows.push('"--- SUMMARY ATTRIBUTES ---"', '""');
   rows.push('"Metric / Property"', '"Value"');
+
+  const orderedFields: Array<{ key: string; label: string; format?: (v: any) => string }> = [
+    { key: 'name', label: 'Area Name' },
+    { key: 'level', label: 'Administrative Level' },
+    { key: 'pcode', label: 'P-Code / Administrative ID' },
+    { key: 'parent_region_name', label: 'Parent Region' },
+    { key: 'parent_district_name', label: 'Parent District' },
+    { key: 'adm1_name', label: 'Region (Adm1)' },
+    { key: 'adm2_name', label: 'District (Adm2)' },
+    { key: 'adm3_name', label: 'Ward (Adm3)' },
+    { key: 'total_population', label: 'Total Population', format: (v) => Number(v).toLocaleString() },
+    { key: 'area_km2', label: 'Land Area (km²)', format: (v) => Number(v).toFixed(2) },
+    { key: 'population_density', label: 'Population Density (persons/km²)', format: (v) => Number(v).toFixed(1) },
+    { key: 'num_households', label: 'Number of Households', format: (v) => Number(v).toLocaleString() },
+    { key: 'avg_household_size', label: 'Average Household Size', format: (v) => Number(v).toFixed(1) },
+    { key: 'growth_rate_2012_2022', label: '10-Year Growth Rate (%/yr)', format: (v) => `${Number(v) > 0 ? '+' : ''}${v}%` },
+    { key: 'pct_urban', label: 'Urban Population Share (%)', format: (v) => `${v}%` },
+    { key: 'pct_rural', label: 'Rural Population Share (%)', format: (v) => `${v}%` },
+    { key: 'sex_ratio', label: 'Sex Ratio (Males per 100 Females)' },
+    { key: 'pct_under_15', label: 'Children Under 15 (%)', format: (v) => `${v}%` },
+    { key: 'pct_65_plus', label: 'Elderly 65+ (%)', format: (v) => `${v}%` },

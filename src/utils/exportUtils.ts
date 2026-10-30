@@ -46,7 +46,6 @@ export async function exportMapToPNG(elementId: string, filename: string) {
   }
   
   try {
-    // Dynamic import to avoid SSR and Webpack module initialization errors
     const html2canvasModule = await import('html2canvas');
     const html2canvas = html2canvasModule.default || html2canvasModule;
     
@@ -66,7 +65,6 @@ export async function exportMapToPNG(elementId: string, filename: string) {
     console.error('Failed to export map as PNG:', err);
   }
 }
-
 
 export function sanitizeFilename(name: string): string {
   return (name || 'area')
@@ -131,6 +129,7 @@ export function exportAreaToCSV(area: FeatureProperties | Record<string, any>, f
     }
   }
 
+  // Include any extra attributes
   const handledKeys = new Set(orderedFields.map(f => f.key));
   handledKeys.add('geometry');
   handledKeys.add('type');
@@ -160,6 +159,8 @@ export function exportAreaToGeoJSON(area: FeatureProperties | Record<string, any
   delete properties.geometry;
 
   let validGeometry = geometry || area.geometry;
+
+  // Fallback geometry if geometry is missing but latitude/longitude exist (e.g. for village)
   if (!validGeometry && area.latitude !== undefined && area.longitude !== undefined) {
     validGeometry = {
       type: 'Point',
@@ -197,12 +198,14 @@ export async function exportAreaToPDF(area: FeatureProperties | Record<string, a
   const pageWidth = 210;
   const pageHeight = 297;
   const margin = 14;
-  const contentWidth = pageWidth - margin * 2;
+  const contentWidth = pageWidth - margin * 2; // 182mm
 
-  doc.setFillColor(16, 185, 129);
+  // Top Accent bar
+  doc.setFillColor(16, 185, 129); // emerald-500
   doc.rect(0, 0, pageWidth, 4, 'F');
 
-  doc.setFillColor(15, 23, 42);
+  // Header Banner
+  doc.setFillColor(15, 23, 42); // slate-900
   doc.rect(0, 4, pageWidth, 24, 'F');
 
   doc.setTextColor(255, 255, 255);
@@ -212,35 +215,40 @@ export async function exportAreaToPDF(area: FeatureProperties | Record<string, a
 
   doc.setFont('helvetica', 'normal');
   doc.setFontSize(8.5);
-  doc.setTextColor(148, 163, 184);
+  doc.setTextColor(148, 163, 184); // slate-400
   doc.text('Subnational 2022 Census (PHC) & Demographic Health Survey (DHS) Data', margin, 22);
 
+  // Date on right
   const dateStr = new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
   doc.text(`Generated: ${dateStr}`, pageWidth - margin, 22, { align: 'right' });
 
   let y = 35;
 
-  doc.setFillColor(248, 250, 252);
-  doc.setDrawColor(203, 213, 225);
+  // Title Box / Card
+  doc.setFillColor(248, 250, 252); // slate-50
+  doc.setDrawColor(203, 213, 225); // slate-300
   doc.roundedRect(margin, y, contentWidth, 23, 2, 2, 'FD');
 
-  doc.setTextColor(15, 23, 42);
+  // Area Name
+  doc.setTextColor(15, 23, 42); // slate-900
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(15);
   doc.text(String(area.name || 'Unnamed Area'), margin + 6, y + 8.5);
 
+  // Administrative Level Badge
   const levelText = String(area.level || 'Area').toUpperCase();
   const badgeWidth = doc.getTextWidth(levelText) + 8;
-  doc.setFillColor(16, 185, 129);
+  doc.setFillColor(16, 185, 129); // emerald-500
   doc.roundedRect(margin + 6, y + 11.5, badgeWidth, 6, 1, 1, 'F');
   doc.setTextColor(255, 255, 255);
   doc.setFontSize(8);
   doc.setFont('helvetica', 'bold');
   doc.text(levelText, margin + 10, y + 15.8);
 
+  // Pcode & Hierarchy
   doc.setFont('helvetica', 'normal');
   doc.setFontSize(8.5);
-  doc.setTextColor(71, 85, 105);
+  doc.setTextColor(71, 85, 105); // slate-600
   const hierarchyParts: string[] = [];
   if (area.pcode) hierarchyParts.push(`Code: ${area.pcode}`);
   if (area.parent_district_name || area.adm2_name) hierarchyParts.push(`District: ${area.parent_district_name || area.adm2_name}`);
@@ -251,6 +259,7 @@ export async function exportAreaToPDF(area: FeatureProperties | Record<string, a
 
   y += 29;
 
+  // Helper function to render a structured section
   const renderSectionHeader = (title: string, iconColor = [16, 185, 129]) => {
     doc.setFillColor(iconColor[0], iconColor[1], iconColor[2]);
     doc.rect(margin, y, 3, 6, 'F');
@@ -266,19 +275,21 @@ export async function exportAreaToPDF(area: FeatureProperties | Record<string, a
     const itemHeight = 11;
     
     for (let i = 0; i < items.length; i += 2) {
+      // Check if page overflow
       if (y + itemHeight > pageHeight - 20) {
         doc.addPage();
         y = 20;
       }
 
+      // Left item
       const left = items[i];
-      doc.setFillColor(241, 245, 249);
-      doc.setDrawColor(226, 232, 240);
+      doc.setFillColor(241, 245, 249); // slate-100
+      doc.setDrawColor(226, 232, 240); // slate-200
       doc.roundedRect(margin, y, colWidth, itemHeight, 1.5, 1.5, 'FD');
       
       doc.setFont('helvetica', 'normal');
       doc.setFontSize(7.5);
-      doc.setTextColor(100, 116, 139);
+      doc.setTextColor(100, 116, 139); // slate-500
       doc.text(left.label, margin + 4, y + 4);
       
       doc.setFont('helvetica', 'bold');
@@ -286,6 +297,7 @@ export async function exportAreaToPDF(area: FeatureProperties | Record<string, a
       doc.setTextColor(15, 23, 42);
       doc.text(`${left.value}${left.unit ? ' ' + left.unit : ''}`, margin + 4, y + 8.5);
 
+      // Right item (if exists)
       if (i + 1 < items.length) {
         const right = items[i + 1];
         const rightX = margin + colWidth + 6;
@@ -308,6 +320,7 @@ export async function exportAreaToPDF(area: FeatureProperties | Record<string, a
     y += 2.5;
   };
 
+  // 1. Demographics & Spatial Overview
   const demographicItems: Array<{ label: string; value: string; unit?: string }> = [];
   if (area.total_population !== undefined && area.total_population !== null) {
     demographicItems.push({ label: 'Total Population', value: Number(area.total_population).toLocaleString(), unit: 'people' });
@@ -353,6 +366,7 @@ export async function exportAreaToPDF(area: FeatureProperties | Record<string, a
     renderDataGrid(demographicItems);
   }
 
+  // 2. Infrastructure & Public Services
   const infraItems: Array<{ label: string; value: string; unit?: string }> = [];
   if (area.health_facilities_count !== undefined && area.health_facilities_count !== null) {
     infraItems.push({ label: 'Total Health Facilities', value: Number(area.health_facilities_count).toLocaleString(), unit: 'facilities' });
@@ -372,6 +386,7 @@ export async function exportAreaToPDF(area: FeatureProperties | Record<string, a
     renderDataGrid(infraItems);
   }
 
+  // 3. Health & Living Standards (DHS)
   const dhsItems: Array<{ label: string; value: string; unit?: string }> = [];
   if (area.electricity_access_pct !== undefined && area.electricity_access_pct !== null) {
     dhsItems.push({ label: 'Access to Electricity', value: `${area.electricity_access_pct}%` });
@@ -405,3 +420,35 @@ export async function exportAreaToPDF(area: FeatureProperties | Record<string, a
     renderSectionHeader('HEALTH & LIVING STANDARDS (DHS 2022)', [168, 85, 247]);
     renderDataGrid(dhsItems);
   }
+
+  // 4. Coordinates (for village / points)
+  if (area.latitude !== undefined && area.longitude !== undefined) {
+    const geoItems = [
+      { label: 'Latitude', value: Number(area.latitude).toFixed(5) },
+      { label: 'Longitude', value: Number(area.longitude).toFixed(5) }
+    ];
+    renderSectionHeader('GEOGRAPHIC COORDINATES', [245, 158, 11]);
+    renderDataGrid(geoItems);
+  }
+
+  // Footer Attribution
+  doc.setDrawColor(203, 213, 225);
+  doc.line(margin, pageHeight - 16, pageWidth - margin, pageHeight - 16);
+
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(7.5);
+  doc.setTextColor(148, 163, 184);
+  doc.text(
+    'Data Sources: Tanzania National Bureau of Statistics (NBS) 2022 Population and Housing Census • Tanzania DHS 2022',
+    margin,
+    pageHeight - 10
+  );
+  doc.text(
+    'Tanzania Demographic Map Platform',
+    pageWidth - margin,
+    pageHeight - 10,
+    { align: 'right' }
+  );
+
+  doc.save(`${filename}.pdf`);
+}

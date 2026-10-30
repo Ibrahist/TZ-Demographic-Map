@@ -250,6 +250,7 @@ export default function Home() {
       // Reset to Tanzania Region View
       setActiveRegion(null);
       setActiveDistrict(null);
+      setAreaForExport(null);
       setBreadcrumbs([{ level: 'national', name: 'Tanzania' }]);
       setCurrentLevel('region');
     } else if (index === 1) {
@@ -257,6 +258,10 @@ export default function Home() {
       const reg = breadcrumbs[1];
       setActiveRegion({ pcode: reg.pcode!, name: reg.name });
       setActiveDistrict(null);
+      if (regionsData) {
+        const found = regionsData.features?.find((f: any) => f.properties.pcode === reg.pcode);
+        if (found) setAreaForExport(found.properties);
+      }
       setBreadcrumbs([
         { level: 'national', name: 'Tanzania' },
         reg
@@ -268,6 +273,10 @@ export default function Home() {
       const dis = breadcrumbs[2];
       setActiveRegion({ pcode: reg.pcode!, name: reg.name });
       setActiveDistrict({ pcode: dis.pcode!, name: dis.name });
+      if (districtsData) {
+        const found = districtsData.features?.find((f: any) => f.properties.pcode === dis.pcode);
+        if (found) setAreaForExport(found.properties);
+      }
       setBreadcrumbs([
         { level: 'national', name: 'Tanzania' },
         reg,

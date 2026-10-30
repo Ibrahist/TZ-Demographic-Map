@@ -187,7 +187,7 @@ export const AreaExportModal: React.FC<AreaExportModalProps> = ({
           {/* Level Switcher */}
           <div>
             <label className="block text-[10px] font-semibold uppercase tracking-wider text-slate-400 mb-1.5">
-              1. Choose Administrative Level
+              1. Administrative Level Selection
             </label>
             <div className="grid grid-cols-4 gap-2 p-1 bg-slate-950 rounded-lg border border-slate-800 text-xs font-medium">
               {(['region', 'district', 'ward', 'village'] as AdminLevel[]).map((lvl) => (

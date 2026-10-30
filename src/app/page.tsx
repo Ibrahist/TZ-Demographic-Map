@@ -301,6 +301,7 @@ export default function Home() {
       parent_region_name: item.parentRegionName,
       parent_region_pcode: item.parentRegionPcode
     });
+
     if (item.level === 'region') {
       setActiveRegion({ pcode: item.pcode, name: item.name });
       setActiveDistrict(null);

@@ -39,7 +39,7 @@ export const ExportButtons: React.FC<ExportButtonsProps> = ({
       <button
         onClick={handleExportCSV}
         title="Download current view data as CSV"
-        className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-900/90 hover:bg-slate-800 text-slate-200 border border-slate-700/80 text-xs font-medium shadow-md transition"
+        className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 active:bg-slate-900 text-slate-100 border border-slate-700 text-xs font-medium shadow-md transition"
       >
         <FileSpreadsheet className="w-3.5 h-3.5 text-emerald-400" />
         <span className="hidden sm:inline">Export CSV</span>

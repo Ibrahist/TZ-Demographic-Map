@@ -183,3 +183,18 @@ export function exportAreaToGeoJSON(area: FeatureProperties | Record<string, any
   document.body.removeChild(link);
   URL.revokeObjectURL(url);
 }
+
+export async function exportAreaToPDF(area: FeatureProperties | Record<string, any>, filename: string) {
+  if (!area || typeof window === 'undefined') return;
+
+  const { jsPDF } = await import('jspdf');
+  const doc = new jsPDF({
+    orientation: 'portrait',
+    unit: 'mm',
+    format: 'a4'
+  });
+
+  const pageWidth = 210;
+  const pageHeight = 297;
+  const margin = 14;
+  const contentWidth = pageWidth - margin * 2;

@@ -250,3 +250,60 @@ export async function exportAreaToPDF(area: FeatureProperties | Record<string, a
   doc.text(hierarchyParts.join('  •  '), margin + 10 + badgeWidth, y + 15.8);
 
   y += 29;
+
+  const renderSectionHeader = (title: string, iconColor = [16, 185, 129]) => {
+    doc.setFillColor(iconColor[0], iconColor[1], iconColor[2]);
+    doc.rect(margin, y, 3, 6, 'F');
+    doc.setTextColor(15, 23, 42);
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(9.5);
+    doc.text(title, margin + 6, y + 4.8);
+    y += 8.5;
+  };
+
+  const renderDataGrid = (items: Array<{ label: string; value: string; unit?: string }>) => {
+    const colWidth = (contentWidth - 6) / 2;
+    const itemHeight = 11;
+    
+    for (let i = 0; i < items.length; i += 2) {
+      if (y + itemHeight > pageHeight - 20) {
+        doc.addPage();
+        y = 20;
+      }
+
+      const left = items[i];
+      doc.setFillColor(241, 245, 249);
+      doc.setDrawColor(226, 232, 240);
+      doc.roundedRect(margin, y, colWidth, itemHeight, 1.5, 1.5, 'FD');
+      
+      doc.setFont('helvetica', 'normal');
+      doc.setFontSize(7.5);
+      doc.setTextColor(100, 116, 139);
+      doc.text(left.label, margin + 4, y + 4);
+      
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(9);
+      doc.setTextColor(15, 23, 42);
+      doc.text(`${left.value}${left.unit ? ' ' + left.unit : ''}`, margin + 4, y + 8.5);
+
+      if (i + 1 < items.length) {
+        const right = items[i + 1];
+        const rightX = margin + colWidth + 6;
+        doc.setFillColor(241, 245, 249);
+        doc.roundedRect(rightX, y, colWidth, itemHeight, 1.5, 1.5, 'FD');
+        
+        doc.setFont('helvetica', 'normal');
+        doc.setFontSize(7.5);
+        doc.setTextColor(100, 116, 139);
+        doc.text(right.label, rightX + 4, y + 4);
+        
+        doc.setFont('helvetica', 'bold');
+        doc.setFontSize(9);
+        doc.setTextColor(15, 23, 42);
+        doc.text(`${right.value}${right.unit ? ' ' + right.unit : ''}`, rightX + 4, y + 8.5);
+      }
+
+      y += itemHeight + 2;
+    }
+    y += 2.5;
+  };

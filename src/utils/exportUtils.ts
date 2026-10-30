@@ -307,3 +307,48 @@ export async function exportAreaToPDF(area: FeatureProperties | Record<string, a
     }
     y += 2.5;
   };
+
+  const demographicItems: Array<{ label: string; value: string; unit?: string }> = [];
+  if (area.total_population !== undefined && area.total_population !== null) {
+    demographicItems.push({ label: 'Total Population', value: Number(area.total_population).toLocaleString(), unit: 'people' });
+  }
+  if (area.area_km2 !== undefined && area.area_km2 !== null) {
+    demographicItems.push({ label: 'Land Area', value: Number(area.area_km2).toFixed(2), unit: 'km²' });
+  }
+  if (area.population_density !== undefined && area.population_density !== null) {
+    demographicItems.push({ label: 'Population Density', value: Number(area.population_density).toFixed(1), unit: 'per km²' });
+  }
+  if (area.num_households !== undefined && area.num_households !== null) {
+    demographicItems.push({ 
+      label: 'Households', 
+      value: Number(area.num_households).toLocaleString(), 
+      unit: area.avg_household_size ? `(${area.avg_household_size}/hh)` : 'households' 
+    });
+  }
+  if (area.growth_rate_2012_2022 !== undefined && area.growth_rate_2012_2022 !== null) {
+    demographicItems.push({ 
+      label: '10-Year Annual Growth Rate (2012–2022)', 
+      value: `${Number(area.growth_rate_2012_2022) > 0 ? '+' : ''}${area.growth_rate_2012_2022}%`, 
+      unit: 'per year' 
+    });
+  }
+  if (area.pct_urban !== undefined && area.pct_rural !== undefined) {
+    demographicItems.push({ 
+      label: 'Urban / Rural Distribution', 
+      value: `Urban: ${area.pct_urban}%  |  Rural: ${area.pct_rural}%` 
+    });
+  }
+  if (area.pct_under_15 !== undefined && area.pct_under_15 !== null) {
+    demographicItems.push({ label: 'Child Population (<15 Years)', value: `${area.pct_under_15}%` });
+  }
+  if (area.pct_65_plus !== undefined && area.pct_65_plus !== null) {
+    demographicItems.push({ label: 'Elderly Population (65+ Years)', value: `${area.pct_65_plus}%` });
+  }
+  if (area.sex_ratio !== undefined && area.sex_ratio !== null) {
+    demographicItems.push({ label: 'Sex Ratio', value: `${area.sex_ratio}`, unit: 'males per 100 females' });
+  }
+
+  if (demographicItems.length > 0) {
+    renderSectionHeader('DEMOGRAPHIC & GEOGRAPHIC PROFILE');
+    renderDataGrid(demographicItems);
+  }

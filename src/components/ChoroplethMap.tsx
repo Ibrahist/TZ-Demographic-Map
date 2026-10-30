@@ -406,12 +406,12 @@ export const ChoroplethMap: React.FC<ChoroplethMapProps> = ({
 
       {/* API Authentication Error Notification */}
       {apiError && apiKey && (
-        <div className="absolute top-4 left-1/2 -translate-x-1/2 z-40 bg-rose-950/90 border border-rose-700/80 rounded-xl px-4 py-3 shadow-xl text-rose-200 text-xs flex items-center space-x-2 backdrop-blur-md">
+        <div className="absolute top-4 left-1/2 -translate-x-1/2 z-40 bg-rose-950 border border-rose-700 rounded-xl px-4 py-3 shadow-xl text-rose-200 text-xs flex items-center space-x-2">
           <AlertTriangle className="w-4 h-4 text-rose-400 shrink-0" />
           <span>Google Maps API authentication failed. Verify API key restrictions and Maps JavaScript API enablement.</span>
           <button
             onClick={onOpenApiKeyModal}
-            className="underline font-semibold hover:text-white ml-2"
+            className="px-2 py-0.5 rounded bg-rose-900 hover:bg-rose-800 text-rose-100 border border-rose-600 font-semibold text-xs ml-2 transition"
           >
             Update Key
           </button>

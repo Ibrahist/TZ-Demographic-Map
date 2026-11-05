@@ -1,5 +1,12 @@
 # Tanzania Demographic & Health Interactive Choropleth Map
 
+> [!WARNING]
+> ### Important Notice on Data Ownership & Permissions
+>
+> 1. **No Ownership of Data**: The creator and maintainers of this repository **do not own any of this data**.
+> 2. **Public Sources Compilation**: All data included in this project, displayed on maps, or made available for download/export has been gathered solely from **publicly available open data sources** provided by governmental bodies and international organizations (including the National Bureau of Statistics (NBS) Tanzania, UN OCHA, The DHS Program, and Humanitarian OpenStreetMap).
+> 3. **Mandatory Permission Requirement**: **If you intend to use, republish, redistribute, or build derivative works from this data, you must contact the original data owners/custodians first** and obtain their explicit authorization in accordance with their respective data licenses and terms of service.
+
 [![Next.js](https://img.shields.io/badge/Next.js-15.1.4-black?style=flat-square&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.0.0-blue?style=flat-square&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7.3-3178c6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
@@ -10,9 +17,6 @@
 An interactive, multi-tiered subnational demographic and health visualization platform for the **United Republic of Tanzania**, built with **Next.js 15 (App Router)**, **React 19**, **TypeScript**, **Tailwind CSS**, and the **Google Maps JavaScript API Data Layer**.
 
 The application provides choropleth mapping, exploratory spatial data analysis (ESDA), and individual area data export across all four administrative tiers of Tanzania: **31 Regions (ADM1)**, **170 Districts / Councils (ADM2)**, **3,643 Wards (ADM3)**, and **10,000+ Village Settlement Points**, harmonized against the **2022 National Population and Housing Census (PHC)**, the **2022 Tanzania Demographic and Health Survey (TDHS-MIS)**, and **Humanitarian OpenStreetMap Team (HOTOSM)** infrastructure registries.
-
-> [!IMPORTANT]
-> **Data Ownership & Usage Notice**: The creator and contributors of this repository **do not own any of this data**. All data displayed in this application has been collected and compiled strictly from publicly available open data sources (including the National Bureau of Statistics (NBS) Tanzania, UN OCHA, The DHS Program, and Humanitarian OpenStreetMap). **If you intend to use, reproduce, or redistribute this data for any purpose, you must contact the respective data owners first** and obtain appropriate authorization according to their official terms and licensing.
 
 ---
 

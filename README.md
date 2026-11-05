@@ -11,6 +11,9 @@ An interactive, multi-tiered subnational demographic and health visualization pl
 
 The application provides choropleth mapping, exploratory spatial data analysis (ESDA), and individual area data export across all four administrative tiers of Tanzania: **31 Regions (ADM1)**, **170 Districts / Councils (ADM2)**, **3,643 Wards (ADM3)**, and **10,000+ Village Settlement Points**, harmonized against the **2022 National Population and Housing Census (PHC)**, the **2022 Tanzania Demographic and Health Survey (TDHS-MIS)**, and **Humanitarian OpenStreetMap Team (HOTOSM)** infrastructure registries.
 
+> [!IMPORTANT]
+> **Data Ownership & Usage Notice**: The creator and contributors of this repository **do not own any of this data**. All data displayed in this application has been collected and compiled strictly from publicly available open data sources (including the National Bureau of Statistics (NBS) Tanzania, UN OCHA, The DHS Program, and Humanitarian OpenStreetMap). **If you intend to use, reproduce, or redistribute this data for any purpose, you must contact the respective data owners first** and obtain appropriate authorization according to their official terms and licensing.
+
 ---
 
 ## Table of Contents
@@ -24,6 +27,7 @@ The application provides choropleth mapping, exploratory spatial data analysis (
 - [Data Pipeline & Reproduction](#data-pipeline--reproduction)
 - [Validation & Census Reconciliation](#validation--census-reconciliation)
 - [Data Sources & Citations](#data-sources--citations)
+- [Data Ownership & Usage Disclaimer](#data-ownership--usage-disclaimer)
 - [Suggestions for Future Improvements & Roadmap](#suggestions-for-future-improvements--roadmap)
 - [Project Structure](#project-structure)
 - [License](#license)
@@ -274,6 +278,27 @@ Complete documentation of raw sources, licenses, and collection protocols is mai
 
 ---
 
+## Data Ownership & Usage Disclaimer
+
+> [!WARNING]
+> ### Important Notice on Data Ownership & Permissions
+>
+> 1. **No Ownership of Data**: The author and maintainers of this repository **do not own any of this data**. 
+> 2. **Public Sources Compilation**: All data included in this project, displayed on maps, or made available for download/export has been gathered solely from **publicly available open data sources** provided by governmental bodies and international organizations.
+> 3. **Mandatory Permission Requirement**: **If you intend to use, republish, redistribute, or build derivative works from this data, you must contact the original data owners/custodians first** and obtain their explicit authorization in accordance with their respective data licenses and terms of service.
+
+### Original Data Custodians & Contact Details
+
+| Data Custodian / Agency | Datasets Provided | Official Website / Access Link |
+| :--- | :--- | :--- |
+| **National Bureau of Statistics (NBS) Tanzania** | 2022 Census (PHC), Population, Densities, Household sizes, 2012 Baselines | [nbs.go.tz](https://www.nbs.go.tz) &bull; Email: `info@nbs.go.tz` |
+| **Office of the Chief Government Statistician (OCGS) Zanzibar** | Zanzibar 2022 Subnational Demographics | [ocgs.go.tz](https://www.ocgs.go.tz) &bull; Email: `dg@ocgs.go.tz` |
+| **The DHS Program (USAID / ICF)** | Tanzania Demographic and Health Survey (TDHS-MIS 2022) Indicators | [dhsprogram.com](https://dhsprogram.com) &bull; [Request Access](https://dhsprogram.com/data/Access-Instructions.cfm) |
+| **UN OCHA ROSA & Humanitarian Data Exchange (HDX)** | Subnational Administrative Boundaries (COD-AB) | [data.humdata.org/dataset/cod-ab-tza](https://data.humdata.org/dataset/cod-ab-tza) &bull; `hdx@un.org` |
+| **Humanitarian OpenStreetMap Team (HOTOSM) & OSM** | Health, Education Infrastructure, and Settlement Points | [hotosm.org](https://www.hotosm.org) &bull; [OpenStreetMap Copyright](https://www.openstreetmap.org/copyright) |
+
+---
+
 ## Suggestions for Future Improvements & Roadmap
 
 To expand the capabilities of this platform for researchers, policy analysts, humanitarian responders, and public health officials, the following engineering enhancements are suggested:
@@ -364,5 +389,6 @@ TZ-Demographic-Map/
 ## License
 
 * **Application Source Code:** Released under the [MIT License](https://opensource.org/licenses/MIT).
+* **Data Ownership & Disclaimer:** The repository author claims **no ownership** over any demographic, health, boundary, or facility data. All data belongs to its respective original custodians as detailed in the [Data Ownership & Usage Disclaimer](#data-ownership--usage-disclaimer). Anyone intending to use, redistribute, or build upon this data must contact the original data owners/custodians first.
 * **Boundaries & Census Data:** Contains public sector information governed by [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (UN OCHA / NBS Tanzania).
 * **OpenStreetMap Data:** Contains data licensed under the [Open Database License (ODbL 1.0)](https://opendatacommons.org/licenses/odbl/) by the OpenStreetMap Foundation and HOTOSM contributors.
